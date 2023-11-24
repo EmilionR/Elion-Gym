@@ -7,7 +7,7 @@ h1, h2, h3 {
 }
 
 header {
-    background: url("../images/deadlift.jpg") no-repeat center center / cover;
+    background: url("../images/empty-gym.jpg") no-repeat center center / cover;
     height: 300px;
 }
 
@@ -16,4 +16,5 @@ header h1 {
     font-size: 300%;
     color: orange;
     padding-top: 50px;
+    text-shadow: 0 0 10px black;
 }
