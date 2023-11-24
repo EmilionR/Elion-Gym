@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
+
+
 h1, h2, h3 {
     font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+header {
+    background: url("../images/deadlift.jpg") no-repeat center center / cover;
+    height: 300px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 300%;
+    color: orange;
+    padding-top: 50px;
 }
