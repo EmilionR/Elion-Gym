@@ -36,6 +36,8 @@ nav {
 #menu a {
     color: #ffffff;
     text-decoration: none;
+    line-height: 3rem;
+    height: auto;
 }
 
 
