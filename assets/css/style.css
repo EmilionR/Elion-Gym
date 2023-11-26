@@ -9,7 +9,16 @@
     --light-text-color: #ffffff;
   }
 
+/* Override wildcard selector */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* General styling */
+
+
 
 h1, h2, h3 {
     font-family: "Kdam Thmor Pro", sans-serif;
