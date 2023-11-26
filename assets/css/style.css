@@ -94,6 +94,12 @@ footer {
     background-color: var(--transparent-strip-color);
 }
 
+.footer-logo {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 250%;
+    color: var(--accent-color);
+}
+
 
 /* Media query: (768px and up) */
 @media screen and (min-width: 768px) {
