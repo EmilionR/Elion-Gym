@@ -107,7 +107,6 @@ nav {
 
 /* Footer */
 footer {
-    height: 100px;
     background-color: var(--transparent-strip-color);
     padding: 10px 20px;
 }
@@ -126,7 +125,7 @@ footer {
 
 footer p {
     color: var(--light-text-color);
-    line-height: 1em;
+    margin-top: 10px;
     padding: 0;
 }
 
