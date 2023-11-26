@@ -19,6 +19,10 @@ p, a {
     font-family: sans-serif;
 }
 
+.container {
+    display: flex;
+}
+
 /* Apply black text shadow */
 .blk-textshadow {
     text-shadow: 0 0 10px var(--dark-text-color);
@@ -90,14 +94,13 @@ nav {
 
 /* Footer */
 footer {
-    height: 200px;
+    height: 100px;
     background-color: var(--transparent-strip-color);
     padding: 10px 20px;
 }
 
 .footer-logo {
     font-family: "Kdam Thmor Pro", sans-serif;
-    font-size: 150%;
     color: var(--accent-color);
     text-decoration: none;
 }
