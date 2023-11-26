@@ -22,11 +22,12 @@ header {
     height: 200px;
 }
 
-header h1 {
-    text-align: center;
+h1 {
+    text-align: left;
     font-size: 300%;
     color: orange;
-    padding-top: 50px;
+    padding-top: 30px;
+    margin: 0 20px;
 }
 
 nav {
@@ -64,7 +65,7 @@ nav {
     text-align: center;
     padding: 1px 5px;
     border-radius: 25%;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 #navbar-toggle:checked~nav {
@@ -92,17 +93,25 @@ nav {
         display: none;
     }
 
-}
-
-/* Media query: (992px and up) */
-@media only screen and (min-width: 992px) {
     header {
         height: 250px;
     }
 
+    h1 {
+        font-size: 400%;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+}
+
+/* Media query: (992px and up) */
+@media screen and (min-width: 992px) {
+    
+
 }
 
 /* Media query: (1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     
 }
