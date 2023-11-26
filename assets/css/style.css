@@ -193,9 +193,13 @@ main {
     position: relative;
 }
 
+.points {
+    flex-flow: row wrap;
+}
+
 .sales-point {
     background: linear-gradient(320deg, #aaaaaa 0%, #7777dd 75%);
-    height: 200px;
+    width: 50%;
 }
 
 /* Footer */
