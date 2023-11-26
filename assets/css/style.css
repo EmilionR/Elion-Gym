@@ -54,7 +54,8 @@ header {
     position: relative;
     height: 30vh;
     min-height: 30vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 h1 {
@@ -71,10 +72,13 @@ h1 {
 nav {
     width: 100%;
     margin: auto;
-    position: relative;
+    padding: 5px 20px 10px 20px;
+    position: absolute;
+    top: 0;
+
     background-color: var(--transparent-strip-color);
     display: none;
-
+    z-index: 11;
 }
 
 #menu {
@@ -97,19 +101,21 @@ nav {
 }
 
 .navbar-toggle-label {
-    color: #ffffff;
+    color: var(--accent-color);
     background-color: var(--transparent-strip-color);
-    font-size: 2rem;
+    font-size: 1.75rem;
     text-align: center;
     padding: 1px 5px;
     border-radius: 25%;
-    margin-left: 20px;
-    top: 75%;
+    right: 20px;
+    top: 80%;
     position: absolute;
+    z-index: 12;
 }
 
 #navbar-toggle:checked~nav {
     display: block;
+    z-index: 10;
 }
 
 /* Hero image slides*/
@@ -168,7 +174,7 @@ nav {
     left: 50%;
     top: 90%;
     transform: translate(-50%, -50%);
-    z-index: 10;
+    z-index: 5;
 }
 
 .labels label {
@@ -204,6 +210,7 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    z-index: 1;
 }
 
 .sales-point i {
