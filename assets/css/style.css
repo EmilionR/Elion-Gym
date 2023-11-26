@@ -140,13 +140,13 @@ footer p {
     justify-content: center;
     gap: 1em;
     list-style: none;
-    
+    align-items: center;
+    padding-top: 0.5em;
 }
 
 #social-icons a {
     color: var(--light-text-color);
     font-size: 1.5em;
-    
 }
 
 
