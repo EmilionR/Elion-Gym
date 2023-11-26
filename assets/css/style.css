@@ -18,7 +18,11 @@
 
 /* General styling */
 
-
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 h1, h2, h3 {
     font-family: "Kdam Thmor Pro", sans-serif;
