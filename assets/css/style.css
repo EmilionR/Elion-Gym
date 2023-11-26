@@ -144,7 +144,9 @@ footer p {
 }
 
 #social-icons a {
-    color: var(--light-text-color)
+    color: var(--light-text-color);
+    font-size: 1.5em;
+    
 }
 
 
