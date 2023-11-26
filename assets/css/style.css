@@ -37,6 +37,13 @@ nav {
     display: none;
 }
 
+
+#menu {
+    list-style-type: none;
+    font-size: 150%;
+    align-items: center;
+}
+
 #menu a {
     color: #ffffff;
     text-decoration: none;
@@ -44,8 +51,24 @@ nav {
     height: auto;
 }
 
-i {
+/* Navbar toggle button */
+
+#navbar-toggle {
+    display: none;
+}
+
+.navbar-toggle-label {
     color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-size: 2rem;
+    text-align: center;
+    padding: 1px 5px;
+    border-radius: 25%;
+    margin-left: 30px;
+}
+
+#navbar-toggle:checked~nav {
+    display: block;
 }
 
 
@@ -60,12 +83,13 @@ i {
     }
 
     #menu {
-        list-style-type: none;
         display: flex;
         justify-content: center;
         gap: 16px;
-        font-size: 150%;
-        align-items: center;
+    }
+
+    .navbar-toggle-label {
+        display: none;
     }
 
 }
