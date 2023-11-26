@@ -99,10 +99,22 @@ footer {
     padding: 10px 20px;
 }
 
+#footer-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .footer-logo {
     font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 150%;
     color: var(--accent-color);
     text-decoration: none;
+}
+
+footer p {
+    color: var(--light-text-color);
+    line-height: 1em;
+    padding: 0;
 }
 
 
