@@ -193,13 +193,14 @@ main {
     position: relative;
 }
 
-.points {
-    flex-flow: row wrap;
+#points {
+    flex-flow: column;
 }
 
 .sales-point {
     background: linear-gradient(320deg, #aaaaaa 0%, #7777dd 75%);
-    width: 50%;
+    width: 100%;
+    padding: 10px;
 }
 
 /* Footer */
@@ -292,6 +293,16 @@ footer p {
 
 /* Media query: (992px and up) */
 @media screen and (min-width: 992px) {
+
+    #points {
+        flex-direction: row;
+    }
+    
+    .sales-point {
+        background: linear-gradient(320deg, #aaaaaa 0%, #7777dd 75%);
+        width: 50%;
+        padding: 10px;
+    }
     
 
 }
