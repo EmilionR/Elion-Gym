@@ -19,7 +19,7 @@ p, a {
 
 header {
     background: url("../images/empty-gym.jpg") no-repeat center center / cover;
-    height: 300px;
+    height: 200px;
 }
 
 header h1 {
@@ -92,4 +92,17 @@ nav {
         display: none;
     }
 
+}
+
+/* Media query: (992px and up) */
+@media only screen and (min-width: 992px) {
+    header {
+        height: 250px;
+    }
+
+}
+
+/* Media query: (1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }
