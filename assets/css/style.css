@@ -51,19 +51,54 @@ p, a {
 /* Header */
 
 header {
-    
+    background: linear-gradient(320deg, #aaaaaa 0%, #7777dd 75%)
 }
+
+h1 {
+    position: relative;
+    text-align: left;
+    font-size: 300%;
+    color: var(--accent-color);
+    padding-top: 100px;
+    margin: 0 20px;
+}
+
+/* Navbar */
+
+nav {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-color: var(--transparent-strip-color);
+    display: none;
+
+}
+
+#menu {
+    list-style-type: none;
+    font-size: 150%;
+    align-items: center;
+}
+
+#menu a {
+    color: var(--light-text-color);
+    text-decoration: none;
+    line-height: 3rem;
+    height: auto;
+}
+
+/* Hero image slides*/
 
 .hero-images {
     display: flex;
     width: 300vw;
-    position: relative;
+    position: absolute;
     transition: all .5s ease-out;
-    
+    z-index: 0;
 }
 
 .hero-images .hero-img {
-    height: 50vh;
+    height: 40vh;
     width: 300vw;
     display: flex;
     justify-content: center;
@@ -72,7 +107,7 @@ header {
 }
 
 .hero-images .hero-img:nth-child(1){
-    background-color: red;
+    background: url(../images/empty-gym.jpg) no-repeat center center/cover;;
 }
 
 .hero-images .hero-img:nth-child(2){
@@ -95,38 +130,6 @@ header {
     left: -200vw;
 }
 
-
-
-h1 {
-    text-align: left;
-    font-size: 300%;
-    color: var(--accent-color);
-    padding-top: 30px;
-    margin: 0 20px;
-}
-
-nav {
-    width: 100%;
-    margin: auto;
-    position: relative;
-    background-color: var(--transparent-strip-color);
-    display: none;
-}
-
-
-#menu {
-    list-style-type: none;
-    font-size: 150%;
-    align-items: center;
-}
-
-#menu a {
-    color: var(--light-text-color);
-    text-decoration: none;
-    line-height: 3rem;
-    height: auto;
-}
-
 .slide-dots input {
     visibility: hidden;
     display: none;
@@ -137,13 +140,14 @@ nav {
     gap: 10px;
     position: absolute;
     left: 50%;
+    top: 35%;
     transform: translate(-50%, -50%);
     z-index: 10;
 }
 
 .labels label {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     background-color: var(--accent-color);
     border-radius: 50%;
     cursor: pointer;
@@ -170,6 +174,8 @@ nav {
     padding: 1px 5px;
     border-radius: 25%;
     margin-left: 20px;
+    top: 32%;
+    position: absolute;
 }
 
 #navbar-toggle:checked~nav {
@@ -180,6 +186,7 @@ nav {
 
 .sales-point {
     background-color: var(--bg-main-color);
+    height: 200px;
 }
 
 /* Footer */
@@ -242,14 +249,18 @@ footer p {
         display: none;
     }
 
-    header {
-        height: 250px;
-    }
-
     h1 {
         font-size: 400%;
-        padding-top: 50px;
+        padding-top: 60px;
         text-align: center;
+    }
+
+    .hero-images .hero-img {
+        height: 50vh;
+    }
+
+    .labels {
+        top: 45%;
     }
 
     /* Footer */
