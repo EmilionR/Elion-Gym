@@ -20,6 +20,7 @@
 
 body {
     min-height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: var(--bg-main-color);
@@ -51,7 +52,10 @@ p, a {
 /* Header */
 
 header {
-    background: linear-gradient(320deg, #aaaaaa 0%, #7777dd 75%)
+    background: linear-gradient(320deg, #aaaaaa 0%, #7777dd 75%);
+    position: relative;
+    height: 30vh;
+    min-height: 30vh;
 }
 
 h1 {
@@ -59,7 +63,7 @@ h1 {
     text-align: left;
     font-size: 300%;
     color: var(--accent-color);
-    padding-top: 100px;
+    padding-top: 20%;
     margin: 0 20px;
 }
 
@@ -87,6 +91,28 @@ nav {
     height: auto;
 }
 
+/* Navbar toggle button */
+
+#navbar-toggle {
+    display: none;
+}
+
+.navbar-toggle-label {
+    color: #ffffff;
+    background-color: var(--transparent-strip-color);
+    font-size: 2rem;
+    text-align: center;
+    padding: 1px 5px;
+    border-radius: 25%;
+    margin-left: 20px;
+    top: 75%;
+    position: absolute;
+}
+
+#navbar-toggle:checked~nav {
+    display: block;
+}
+
 /* Hero image slides*/
 
 .hero-images {
@@ -98,7 +124,8 @@ nav {
 }
 
 .hero-images .hero-img {
-    height: 40vh;
+    height: 30vh;
+    min-height: 30vh;
     width: 300vw;
     display: flex;
     justify-content: center;
@@ -140,7 +167,7 @@ nav {
     gap: 10px;
     position: absolute;
     left: 50%;
-    top: 35%;
+    top: 90%;
     transform: translate(-50%, -50%);
     z-index: 10;
 }
@@ -160,32 +187,14 @@ nav {
     background-color: var(--light-text-color);
 }
 
-/* Navbar toggle button */
-
-#navbar-toggle {
-    display: none;
-}
-
-.navbar-toggle-label {
-    color: #ffffff;
-    background-color: var(--transparent-strip-color);
-    font-size: 2rem;
-    text-align: center;
-    padding: 1px 5px;
-    border-radius: 25%;
-    margin-left: 20px;
-    top: 32%;
-    position: absolute;
-}
-
-#navbar-toggle:checked~nav {
-    display: block;
-}
-
 /* Main */
 
+main {
+    position: relative;
+}
+
 .sales-point {
-    background-color: var(--bg-main-color);
+    background: linear-gradient(320deg, #aaaaaa 0%, #7777dd 75%);
     height: 200px;
 }
 
@@ -193,6 +202,7 @@ nav {
 footer {
     background-color: var(--transparent-strip-color);
     padding: 10px 20px;
+    bottom: 0px;
 }
 
 #footer-wrapper {
@@ -232,6 +242,11 @@ footer p {
 @media screen and (min-width: 768px) {
     
     /* Header */
+
+    header {
+        min-height: 40vh;
+        max-height: 40vh;
+    }
     nav {
         display: block;
         position: relative;
@@ -256,11 +271,12 @@ footer p {
     }
 
     .hero-images .hero-img {
-        height: 50vh;
+        height: 40vh;
+        min-height: 40vh;
     }
 
     .labels {
-        top: 45%;
+        top: 90%;
     }
 
     /* Footer */
