@@ -36,6 +36,12 @@ p, a {
     display: flex;
 }
 
+.section-heading {
+    font-size: 250%;
+    text-align: center;
+    color: var(--accent-color);
+}
+
 /* Apply black text shadow */
 .blk-textshadow {
     text-shadow: 0 0 10px var #000000;
@@ -196,14 +202,16 @@ nav {
 
 main {
     position: relative;
+    background: linear-gradient(320deg, #aaaaaa 0%, #444444 75%);
 }
 
 #points {
     flex-flow: column;
+    align-items: center;
 }
 
 .sales-point {
-    background: linear-gradient(320deg, #aaaaaa 0%, #7777dd 75%);
+    background: linear-gradient(320deg, #aaaaaa 0%, #5e5e7d 75%);
     width: 100%;
     padding: 30px;
     display: flex;
@@ -211,6 +219,8 @@ main {
     align-items: center;
     gap: 20px;
     z-index: 1;
+    margin: 2px;
+    border-radius: 8px;
 }
 
 .sales-point i {
@@ -337,9 +347,9 @@ footer p {
     }
     
     .sales-point {
-        background: linear-gradient(320deg, #aaaaaa 0%, #7777dd 75%);
         width: 50%;
         padding: 60px;
+        margin: 5px;
     }
 
     /* Move icon back same side */
