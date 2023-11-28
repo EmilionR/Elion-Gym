@@ -415,11 +415,13 @@ button:hover {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin: 10px 5%;
+    gap: 16px;
 }
 
 #event-boxes div {
     background-color: blue;
-    width: 45%;
+    width: 80%;
     height: 400px;
     padding: 20px;
     text-align: center;
@@ -427,6 +429,15 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+}
+
+#event-schedule {
+    width: 80%;
+    margin: 0 auto 20px;
+    padding: 16px;
+    background-color: blue;
+    border-radius: 8px;
 }
 
 /* Footer */
