@@ -84,34 +84,53 @@
                     in-house personal trainers.</p>
             </div>
         </section>
-        <section id="signup-form"></section>
-        <h3 class="section-subheading">Sign up</h3>
-        <form>
-            <label for="first-name">First name:</label>
-            <input type="text" name="first-name" id="first-name">
-            <label for="first-name">Last name:</label>
-            <input type="text" name="last-name" id="last-name">
-            <label for="birth-date">Birth date:</label>
-            <input type="date" name="birthdate" id="birthdate">
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
-            <label for="tel">Telephone:</label>
-            <input type="" name="number" id="number">
-            <br>
-            <label for="length">Length:</label>
-            <select name="length" id="length">
-                <option value="1month">1 month</option>
-                <option value="3month">3 months</option>
-                <option value="6month">6 months</option>
-                <option value="12month">12 months</option>
-                <option value="single">Single session</option>
-            </select>
-            <br>
-            <label for="agree">I have read and agree to the gym rules:</label>
-            <input type="checkbox" name="agree" id="agree">
-            <button name="join" id="join"><i class="fa-solid fa-dumbbell"></i> JOIN</button>
-        </form>
+        <section id="signup">
+            <div class="container" id="signup-form">
+                <h3 class="section-subheading">Sign up</h3>
+                <form>
+                    <div>
+                        <label for="first-name">First name:</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                    </div>
+                    <div>
+                        <label for="first-name">Last name:</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                    </div>
+                    <div>
+                        <label for="birth-date">Birth date:</label>
+                        <input type="date" name="birthdate" id="birthdate">
+                    </div>
+                    <div class="flex-break"></div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="tel">Telephone:</label>
+                        <input type="" name="number" id="number">
+                    </div>
+                    <div class="flex-break"></div>
+                    <div>
+                        <label for="length">Length:</label>
+                        <select name="length" id="length">
+                            <option value="1month">1 month</option>
+                            <option value="3month">3 months</option>
+                            <option value="6month">6 months</option>
+                            <option value="12month">12 months</option>
+                            <option value="single">Single session</option>
+                        </select>
+                    </div>
+                    <div class="flex-break"></div>
+                    <div id="join-agree">
+                        <div>
+                            <label for="agree">I have read and agree to the gym rules:</label>
+                            <input type="checkbox" name="agree" id="agree">
+                        </div>
+                        <button name="join" id="join"><i class="fa-solid fa-dumbbell"></i> JOIN</button>
+                    </div>
+                </form>
+            </div>
+        </section>
         <div id="gym-rules">
             <h3>Gym Rules:</h3>
             <p>Always</p>

@@ -278,6 +278,41 @@ th, td {
     text-align: left;
 }
 
+/* Sign-up form */
+
+#signup-form {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#signup form label {
+    font-size: 90%;
+}
+
+#join-agree {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+}
+
+#join-agree > * {
+    width: 50%;
+}
+
+button {
+    font-size: 120%;
+}
+
 /* Footer */
 footer {
     background-color: var(--transparent-strip-color);
