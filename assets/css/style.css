@@ -390,6 +390,10 @@ button:hover {
     gap: 10px;
 }
 
+#features > p {
+    padding: 10px 10%;
+}
+
 .feature-segment {
     background: linear-gradient(320deg, #444444 0%, #aaaaaa 75%);
     border-radius: 25px;
@@ -461,6 +465,7 @@ footer p {
 
     #features {
         flex-flow: row wrap;
+        align-items: flex-start;
     }
 
     .feature-segment {
@@ -565,4 +570,4 @@ footer p {
 /* Media query: (1200px and up) */
 @media screen and (min-width: 1200px) {
     
-}auto
+}
