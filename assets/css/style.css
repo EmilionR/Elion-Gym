@@ -42,6 +42,11 @@ p, a {
     color: var(--accent-color);
 }
 
+.section-subheading {
+    text-align: center;
+    color: var(--light-text-color);
+}
+
 .small-text {
     font-size: 90%;
 }
@@ -252,7 +257,7 @@ main {
     align-items: center;
 }
 
-#pricing p, #pricing h3 {
+#pricing p {
     text-align: center;
     padding: 5px;
     margin: 0 10%;
@@ -268,6 +273,7 @@ table {
 }
 
 th, td {
+    font-family: "Kdam Thmor Pro", sans-serif;
     padding: 2px;
     text-align: left;
 }
