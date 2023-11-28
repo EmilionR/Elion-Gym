@@ -42,6 +42,10 @@ p, a {
     color: var(--accent-color);
 }
 
+.small-text {
+    font-size: 90%;
+}
+
 /* Apply black text shadow */
 .blk-textshadow {
     text-shadow: 0 0 10px var #000000;
@@ -241,6 +245,34 @@ main {
     flex-direction: column;
 }
 
+/* Pricing table */
+
+#pricing {
+    flex-direction: column;
+    align-items: center;
+}
+
+#pricing p {
+    text-align: center;
+    padding: 5px;
+    margin: 0 10%;
+    color: var(--light-text-color)
+    
+}
+
+table {
+    background-color: #aaaaaa;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 8px;
+    width: 90%;
+}
+
+th, td {
+    padding: 2px;
+    text-align: left;
+}
+
 /* Footer */
 footer {
     background-color: var(--transparent-strip-color);
@@ -329,6 +361,11 @@ footer p {
         flex-direction: row;
         padding: 30px 30px;
         justify-content: space-evenly;
+    }
+
+    /* Pricing table */
+    table {
+        width: 600px;
     }
 
     /* Footer */
