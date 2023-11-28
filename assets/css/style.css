@@ -379,6 +379,24 @@ button:hover {
     text-align: center;
 }
 
+/* Features */
+
+#features {
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+
+.feature-segment {
+    background: linear-gradient(320deg, #444444 0%, #aaaaaa 75%);
+    border-radius: 25px;
+    width: 100%;
+    padding: 25px;
+}
+
+.feature-segment ul {
+    padding-left: 20px;
+}
 
 /* Footer */
 footer {
@@ -430,6 +448,16 @@ footer p {
 @media screen and (min-width: 480px) {
     .section-subheading {
         font-size: 200%;
+    }
+
+    /* Features */
+
+    #features {
+        flex-flow: row wrap;
+    }
+
+    .feature-segment {
+        width: 50%;
     }
 }
 
@@ -514,6 +542,11 @@ footer p {
     
     #rules {
         flex-flow: row wrap;
+    }
+
+    /* Features */
+    .feature-segment {
+        width: 33%;
     }
 
 }
