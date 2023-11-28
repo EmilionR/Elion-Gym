@@ -89,24 +89,24 @@
                 <form>
                     <div>
                         <label for="first-name">First name:</label>
-                        <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                        <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
                     </div>
                     <div>
                         <label for="first-name">Last name:</label>
-                        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                        <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
                     </div>
                     <div>
                         <label for="birth-date">Birth date:</label>
-                        <input type="date" name="birthdate" id="birthdate">
+                        <input type="date" name="birthdate" id="birthdate" required>
                     </div>
                     <div class="flex-break"></div>
                     <div>
                         <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" placeholder="your@email.com">
+                        <input type="email" name="email" id="email" placeholder="your@email.com" required>
                     </div>
                     <div>
                         <label for="tel">Telephone:</label>
-                        <input type="" name="number" id="number" placeholder="1234567890">
+                        <input type="" name="number" id="number" placeholder="1234567890" required>
                     </div>
                     <div class="flex-break"></div>
                     <div>
@@ -122,9 +122,9 @@
                     <div id="join-agree">
                         <div>
                             <label for="agree" class="small-text">I have read and agree to the gym rules:</label>
-                            <input type="checkbox" name="agree" id="agree">
+                            <input type="checkbox" name="agree" id="agree" required>
                         </div>
-                        <button name="join" id="join"><i class="fa-solid fa-dumbbell"></i> JOIN</button>
+                        <button type="submit" name="join" id="join"><i class="fa-solid fa-dumbbell"></i> JOIN</button>
                     </div>
                 </form>
             </div>
