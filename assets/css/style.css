@@ -417,6 +417,18 @@ button:hover {
     align-items: center;
 }
 
+#event-boxes div {
+    background-color: blue;
+    width: 45%;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /* Footer */
 footer {
     background-color: var(--transparent-strip-color);
