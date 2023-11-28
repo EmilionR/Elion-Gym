@@ -245,15 +245,16 @@ footer {
 
 .footer-logo {
     font-family: "Kdam Thmor Pro", sans-serif;
-    font-size: 150%;
+    font-size: 200%;
     color: var(--accent-color);
     text-decoration: none;
+    padding-right: 16px;
 }
 
 footer p {
     color: var(--light-text-color);
     margin-top: 10px;
-    padding: 0;
+    font-size: 90%;
 }
 
 #social-icons {
@@ -263,6 +264,7 @@ footer p {
     list-style: none;
     align-items: center;
     padding-top: 0.5em;
+    padding-right: 60px;
 }
 
 #social-icons a {
