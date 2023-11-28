@@ -409,6 +409,14 @@ button:hover {
     width: 100%;
 }
 
+/* Events */
+
+#event-boxes {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 /* Footer */
 footer {
     background-color: var(--transparent-strip-color);
@@ -470,6 +478,12 @@ footer p {
 
     .feature-segment {
         width: 48%;
+    }
+
+    /*Events */
+
+    #event-boxes {
+        flex-direction: row;
     }
 }
 
