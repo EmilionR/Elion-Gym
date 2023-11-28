@@ -24,11 +24,11 @@ body {
     background-color: var(--bg-main-color);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: "Kdam Thmor Pro", sans-serif;
 }
 
-p, a {
+p, a, li {
     font-family: sans-serif;
 }
 
@@ -214,6 +214,8 @@ main {
     background: linear-gradient(320deg, #aaaaaa 0%, #444444 75%);
 }
 
+/* Selling points */
+
 #points {
     flex-flow: column;
     align-items: center;
@@ -312,6 +314,20 @@ form {
 button {
     font-size: 120%;
 }
+
+/* Gym rules */
+#rules {
+    flex-direction: column;
+    margin: 10px 10%;
+    padding: 16px;
+    background-color: var(--accent-color);
+    border-radius: 25px 4px 25px 4px;
+}
+
+#rules ul {
+    padding-left: 16px;
+}
+
 
 /* Footer */
 footer {
