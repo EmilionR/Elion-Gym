@@ -252,12 +252,11 @@ main {
     align-items: center;
 }
 
-#pricing p {
+#pricing p, #pricing h3 {
     text-align: center;
     padding: 5px;
     margin: 0 10%;
     color: var(--light-text-color)
-    
 }
 
 table {
