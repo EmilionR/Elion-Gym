@@ -384,14 +384,14 @@ button:hover {
 #features {
     flex-direction: column;
     width: 95%;
-    margin: 20px auto;
+    margin: 10px 20px auto;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
 #features > p {
-    padding: 10px 10%;
+    padding: 0 10% 10px 10%;
 }
 
 .feature-segment {
