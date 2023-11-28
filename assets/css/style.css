@@ -34,7 +34,7 @@ h4 {
     margin: 6px 0 10px 0;
 }
 
-p, a, li {
+p, a, li, label {
     font-family: sans-serif;
 }
 
@@ -263,6 +263,7 @@ main {
 #pricing {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 #pricing p {
@@ -286,23 +287,45 @@ th, td {
     text-align: left;
 }
 
+th {
+    background-color: var(--transparent-strip-color);
+    color: var(--light-text-color);
+    border-radius: 4px;
+}
+
 /* Sign-up form */
 
 #signup-form {
     flex-direction: column;
     align-items: center;
-    margin: 10px 10%;
+    margin: 16px 10%;
+    gap: 10px;
 }
 
 form {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 5px 10px;
 }
 
-#signup form label {
-    font-size: 90%;
+#signup-form input,
+#signup-form select {
+    line-height: 150%;
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+#signup-form label {
+    align-self: center;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
 }
 
 #join-agree {
@@ -318,13 +341,21 @@ form {
 }
 
 button {
-    font-size: 120%;
+    font-size: 150%;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 12px;
+    line-height: 200%;
+}
+
+button:hover {
+    color: var(--light-text-color);
 }
 
 /* Gym rules */
 #rules {
     flex-direction: column;
-    margin: 10px 10%;
+    margin: 16px 10%;
     padding: 16px;
     background-color: var(--accent-color);
     border-radius: 25px 4px 25px 4px;
@@ -381,7 +412,6 @@ footer p {
     color: var(--light-text-color);
     font-size: 1.5em;
 }
-
 
 /* Media query: (768px and up) */
 @media screen and (min-width: 768px) {
