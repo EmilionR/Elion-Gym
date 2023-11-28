@@ -384,7 +384,10 @@ button:hover {
 #features {
     flex-direction: column;
     width: 95%;
-    margin: auto;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .feature-segment {
@@ -396,6 +399,10 @@ button:hover {
 
 .feature-segment ul {
     padding-left: 20px;
+}
+
+#shop {
+    width: 100%;
 }
 
 /* Footer */
@@ -457,7 +464,7 @@ footer p {
     }
 
     .feature-segment {
-        width: 50%;
+        width: 48%;
     }
 }
 
@@ -546,7 +553,11 @@ footer p {
 
     /* Features */
     .feature-segment {
-        width: 33%;
+        width: 32%;
+    }
+
+    #shop {
+        width: 60%;
     }
 
 }
@@ -554,4 +565,4 @@ footer p {
 /* Media query: (1200px and up) */
 @media screen and (min-width: 1200px) {
     
-}
+}auto
