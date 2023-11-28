@@ -28,6 +28,10 @@ h1, h2, h3, h4 {
     font-family: "Kdam Thmor Pro", sans-serif;
 }
 
+h2 {
+    margin: 10px auto;
+}
+
 h4 {
     text-decoration: underline;
     text-decoration-thickness: 2px;
