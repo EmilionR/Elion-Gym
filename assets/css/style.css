@@ -419,7 +419,7 @@ button:hover {
     gap: 16px;
 }
 
-#event-boxes div {
+#event-boxes > div {
     background-color: blue;
     width: 80%;
     height: 400px;
@@ -429,7 +429,8 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    align-items: center;
+    color: var(--accent-color)
 }
 
 #event-schedule {
