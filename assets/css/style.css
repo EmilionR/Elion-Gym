@@ -119,6 +119,10 @@ nav {
     height: auto;
 }
 
+#menu a:hover, #menu a:focus {
+    color: var(--accent-color);
+}
+
 /* Navbar toggle button */
 
 #navbar-toggle {
@@ -415,6 +419,11 @@ footer p {
 #social-icons a {
     color: var(--light-text-color);
     font-size: 1.5em;
+}
+
+#social-icons a:hover,
+#social-icons a:focus {
+    color: var(--accent-color);
 }
 
 /* Media query: (480px and up) */
