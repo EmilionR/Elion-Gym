@@ -412,13 +412,15 @@ button:hover {
 }
 
 .feature-segment ul {
+    font-weight: 600;
+    line-height: 110%;
     padding-left: 30px;
 }
 
 /* Shop */
 
 #shop {
-    width: 100%;
+    width: 90%;
     margin: 0 auto 20px;
     display: flex;
     flex-direction: column;
@@ -524,11 +526,17 @@ footer p {
 
     #features {
         flex-flow: row wrap;
-        align-items: flex-start;
+        align-items: stretch;
+
     }
 
     .feature-segment {
         width: 48%;
+    }
+
+    #machines {
+        order: 3;
+        width: 75%;
     }
 
     /*Events */
@@ -629,6 +637,11 @@ footer p {
 
     /* Features */
     .feature-segment {
+        width: 32%;
+    }
+
+    #machines {
+        order: 0;
         width: 32%;
     }
 
