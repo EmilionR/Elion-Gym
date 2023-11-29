@@ -22,7 +22,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--bg-main-color);
-    overflow: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -74,22 +73,23 @@ p, a, li, label {
 }
 
 /* Header */
+
 header {
     background: linear-gradient(320deg, #aaaaaa 0%, #7777dd 75%);
     position: relative;
     height: 30vh;
     min-height: 30vh;
     overflow-x: hidden;
-    overflow-y: visible;
+    overflow-y: hidden;
 }
 
 h1 {
     position: relative;
-    text-align: center;
-    font-size: 250%;
+    text-align: left;
+    font-size: 300%;
     color: var(--accent-color);
-    padding-top: 50px;
-    margin: 0 10px;
+    padding-top: 20%;
+    margin: 0 20px;
 }
 
 /* Navbar */
@@ -99,9 +99,10 @@ nav {
     padding: 5px 20px 10px 20px;
     position: absolute;
     top: 0;
+
     background-color: var(--transparent-strip-color);
     display: none;
-    z-index: 999;
+    z-index: 11;
 }
 
 #menu {
@@ -141,17 +142,17 @@ nav {
 
 #navbar-toggle:checked~nav {
     display: block;
-    z-index: 999;
+    z-index: 10;
 }
 
 /* Hero image slides*/
+
 .hero-images {
     display: flex;
     width: 300vw;
     position: absolute;
     transition: all .5s ease-out;
     z-index: 0;
-    overflow: hidden;
 }
 
 .hero-images .hero-img {
@@ -487,15 +488,8 @@ footer p {
 
 /* Media query: (480px and up) */
 @media screen and (min-width: 480px) {
-    
-    /* General Styling */
-    
     .section-subheading {
         font-size: 200%;
-    }
-
-    h1 {
-        font-size: 300%;
     }
 
     /* Features */
@@ -547,7 +541,6 @@ footer p {
         text-align: center;
     }
 
-    /* Hero Image Slider */
     .hero-images .hero-img {
         height: 40vh;
         min-height: 40vh;
