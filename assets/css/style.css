@@ -93,7 +93,6 @@ h1 {
 }
 
 /* Navbar */
-
 nav {
     width: 100%;
     margin: auto;
@@ -124,7 +123,6 @@ nav {
 }
 
 /* Navbar toggle button */
-
 #navbar-toggle {
     display: none;
 }
@@ -167,6 +165,7 @@ nav {
     padding: 10px;
 }
 
+/* These are the slides */
 .hero-images .hero-img:nth-child(1){
     background: url(../images/empty-gym.jpg) no-repeat center center/cover;;
 }
@@ -179,6 +178,7 @@ nav {
     background-color: green;
 }
 
+/* Logic for clicking dots to change slides */
 .slide-dots input:nth-child(1):checked ~ .hero-images {
     left: 0vw;
 }
@@ -191,6 +191,7 @@ nav {
     left: -200vw;
 }
 
+/* Hide Radio buttons to show custom dots (labels) */
 .slide-dots input {
     visibility: hidden;
     display: none;
