@@ -40,6 +40,7 @@ h4 {
 
 p, a, li, label {
     font-family: sans-serif;
+    font-weight: 600;
 }
 
 .container {
@@ -117,6 +118,7 @@ nav {
 }
 
 #menu a {
+    font-family: "Kdam Thmor Pro", sans-serif;
     color: var(--light-text-color);
     text-decoration: none;
     line-height: 3rem;
