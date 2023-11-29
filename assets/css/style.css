@@ -398,13 +398,21 @@ button:hover {
 
 .feature-segment {
     background: linear-gradient(320deg, #444444 0%, #aaaaaa 75%);
-    border-radius: 25px;
+    border-radius: 25px 0 25px 0;
     width: 100%;
     padding: 25px;
 }
 
+.feature-segment h3 {
+    color: var(--accent-color);
+    background-color: var(--transparent-strip-color);
+    padding: 4px 8px;
+    border-radius: 8px 0 8px 0;
+    margin-bottom: 4px;
+}
+
 .feature-segment ul {
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 /* Shop */
