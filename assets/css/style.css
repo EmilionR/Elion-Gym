@@ -55,6 +55,12 @@ p, a, li, label {
 .section-subheading {
     text-align: center;
     color: var(--light-text-color);
+    padding: 2px 12px;
+}
+
+.heading-bg {
+    background-color: var(--transparent-strip-color);
+    border-radius: 12px 0 12px 0;
 }
 
 .small-text {
