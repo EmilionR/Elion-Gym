@@ -407,8 +407,20 @@ button:hover {
     padding-left: 20px;
 }
 
+/* Shop */
+
 #shop {
     width: 100%;
+    margin: 0 auto 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#shop table {
+    border: none;
+    background: none;
 }
 
 /* Events */
