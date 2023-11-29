@@ -233,12 +233,13 @@ main {
 #points {
     flex-flow: column;
     align-items: center;
+    margin: 0 1.5rem;
 }
 
 .sales-point {
     background: linear-gradient(320deg, #aaaaaa 0%, #5e5e7d 75%);
     width: 100%;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -249,7 +250,10 @@ main {
 }
 
 .sales-point i {
-    font-size: 3em;
+    font-size: 3rem;
+    background-color: #aaa;
+    border: 5px solid var(--accent-color);
+    border-radius: 50%;
 }
 
 /* Move icon to other side */
@@ -553,6 +557,12 @@ footer p {
         top: 90%;
     }
 
+    /* Selling points */
+    .sales-point i {
+        font-size: 5rem;
+        border: 8px solid var(--accent-color);
+    }
+
     /* Owner Section */
     .owner-section{
         flex-direction: row;
@@ -577,6 +587,7 @@ footer p {
     /* Main */
     #points {
         flex-direction: row;
+        align-items: stretch;
     }
     
     .sales-point {
