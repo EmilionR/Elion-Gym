@@ -175,13 +175,12 @@ nav {
 }
 
 .hero-images .hero-img:nth-child(2){
-    background-color: blue;
+    background: url(../images/machines.jpg) no-repeat center center/cover;
 }
 
 .hero-images .hero-img:nth-child(3){
-    background-color: green;
+    background: url(../images/ropes.jpg) no-repeat center center/cover;
 }
-
 /* Logic for clicking dots to change slides */
 .slide-dots input:nth-child(1):checked ~ .hero-images {
     left: 0vw;
@@ -549,6 +548,7 @@ footer p {
     /* General Styling */
     h1 {
         font-size: 300%;
+        padding: 12px;
     }
 
     /* Features */
