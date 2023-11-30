@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?fa.pointsmily=Kdam+Thmor+Pro&display=swap');
 
 /* Variables for effective styling */
 :root {
@@ -235,7 +235,7 @@ main {
 }
 
 /* Selling points */
-#points {
+.points {
     flex-flow: column;
     align-items: center;
     margin: 0 1.5rem;
@@ -259,6 +259,11 @@ main {
     background-color: var(--light-text-color);
     border: 5px solid var(--accent-color);
     border-radius: 50%;
+}
+
+.sales-point div {
+    width: 90%;
+    text-align: left;
 }
 
 /* Move icon to other side */
@@ -616,7 +621,7 @@ footer p {
 @media screen and (min-width: 992px) {
 
     /* Main */
-    #points {
+    .points {
         flex-direction: row;
         align-items: stretch;
     }
