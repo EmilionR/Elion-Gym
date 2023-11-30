@@ -485,12 +485,13 @@ button:hover {
     background: url(../images/lifting-comp.jpg) no-repeat center center/cover;
 }
 
-#event-schedule {
+#schedule {
     width: 80%;
     margin: 0 auto 20px;
     padding: 16px;
-    background-color: blue;
+    background-color: var(--transparent-strip-color);
     border-radius: 8px;
+    color: var(--light-text-color);
 }
 
 /* Footer */
