@@ -175,7 +175,7 @@ nav {
 }
 
 .hero-images .hero-img:nth-child(2){
-    background: url(../images/machines.jpg) no-repeat center center/cover;
+    background: url(../images/weight-rack.jpg) no-repeat center center/cover;
 }
 
 .hero-images .hero-img:nth-child(3){
@@ -241,7 +241,7 @@ main {
 }
 
 .sales-point {
-    background: linear-gradient(320deg, #aaaaaa 0%, #5e5e7d 75%);
+    background: url(../images/dumbbells.jpg) no-repeat center center/cover;
     width: 100%;
     padding: 20px;
     display: flex;
@@ -263,6 +263,8 @@ main {
 .sales-point div {
     width: 90%;
     text-align: left;
+    color: var(--light-text-color);
+    background-color: var(--transparent-strip-color);
 }
 
 /* Move icon to other side */
@@ -651,13 +653,11 @@ footer p {
         width: 50%;
         padding: 60px;
         margin: 5px;
-        background: linear-gradient(320deg, #5e5e7d 0%, #aaaaaa 75%);
     }
 
     /* Move icon back same side */
     .odd {
     flex-direction: row;
-    background: linear-gradient(320deg, #aaaaaa 0%, #5e5e7d 75%);
     }
     
     #rules {
