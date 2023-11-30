@@ -265,6 +265,7 @@ main {
     text-align: left;
     color: var(--light-text-color);
     background-color: var(--transparent-strip-color);
+    padding: 8px;
 }
 
 /* Move icon to other side */
