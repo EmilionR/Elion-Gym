@@ -246,7 +246,6 @@ main {
     gap: 20px;
     z-index: 1;
     margin: 2px;
-    border-radius: 12px 0 12px 0;
 }
 
 .sales-point i {
@@ -260,7 +259,6 @@ main {
     width: 90%;
     text-align: left;
     color: var(--light-text-color);
-    background-color: var(--transparent-strip-color);
     padding: 8px;
 }
 

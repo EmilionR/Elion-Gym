@@ -10,3 +10,4 @@ Image Credits:
 "lifting-comp" Photo by <a href="https://unsplash.com/@victorfreitas?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Victor Freitas</a> on <a href="https://unsplash.com/photos/a-man-lifting-a-barbell-in-a-gym-71T4vSUphQI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 "dumbbells" Photo by <a href="https://unsplash.com/@samuelgirven?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Samuel Girven</a> on <a href="https://unsplash.com/photos/dumbbells-on-floor-VJ2s0c20qCo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 "weight-rack" Photo by Ivan Samkov: https://www.pexels.com/sv-se/foto/gym-utrustning-hantlar-hantel-4162451/
+"owner.jpg" Image generated with Picsart AI
