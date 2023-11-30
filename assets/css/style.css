@@ -40,10 +40,6 @@ h4 {
     margin: 6px 0 10px 0;
 }
 
-.container {
-    display: flex;
-}
-
 .section-heading {
     font-size: 250%;
     text-align: center;
@@ -687,4 +683,30 @@ footer p {
         padding-top: 75px;
     }
     
+}
+
+/* UTILITY CLASSES */
+
+.corners {
+    border-radius: 12px 0 12px 0;
+}
+
+.bg-dark {
+    background-color: var(--transparent-strip-color);
+}
+
+.txt-light {
+    color: var(--light-text-color);
+}
+
+.container {
+    display: flex;
+}
+
+.horizontal {
+    flex-direction: row;
+}
+
+.vertical {
+    flex-direction: column;
 }
