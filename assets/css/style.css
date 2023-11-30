@@ -272,6 +272,13 @@ main {
     flex-direction: column;
 }
 
+#portrait {
+    width: 10rem;
+    border: 8px solid var(--accent-color);
+    border-radius: 50%;
+
+}
+
 /* Pricing table */
 #pricing {
     flex-direction: column;
