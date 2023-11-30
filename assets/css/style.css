@@ -335,6 +335,15 @@ form {
     margin-bottom: 4px;
 }
 
+#signup-form label:hover {
+    text-shadow: 0 0 10px var(--light-text-color);
+}
+
+#signup-form input:hover,
+#signup-form select:hover {
+    box-shadow: 0 0 10px var(--light-text-color);
+}
+
 form div {
     display: flex;
     flex-direction: column;
@@ -352,12 +361,26 @@ form div {
     width: 50%;
 }
 
+#join-agree div {
+    flex-direction: column;
+    align-items: center;
+}
+
+#agree {
+    width: 20px;
+    height: 20px;
+}
+
 button {
     font-size: 150%;
     background-color: var(--accent-color);
     border: none;
     border-radius: 12px;
     line-height: 200%;
+}
+
+button:hover {
+    box-shadow: 0 0 10px var(--accent-color);
 }
 
 button:hover {
@@ -700,9 +723,4 @@ footer p {
 /* Apply black text shadow */
 .blk-textshadow {
     text-shadow: 0 0 10px #000000;
-}
-
-/* Apply glow to text*/
-.txt-glow {
-    text-shadow: 0 0 10px var(--accent-color);
 }
