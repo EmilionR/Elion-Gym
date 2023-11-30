@@ -5,7 +5,6 @@
     --bg-main-color: #aaaaaa;
     --transparent-strip-color: rgba(0, 0, 0, 0.75);
     --accent-color: orange;
-    --dark-text-color: #000000;
     --light-text-color: #ffffff;
   }
 
@@ -55,11 +54,6 @@ h4 {
 
 .small-text {
     font-size: 90%;
-}
-
-/* Apply black text shadow */
-.blk-textshadow {
-    text-shadow: 0 0 10px var #000000;
 }
 
 /* Flex linebreak */
@@ -683,26 +677,32 @@ footer p {
 
 /* UTILITY CLASSES */
 
+/* Rounded corners, alternating */
 .corners {
     border-radius: 12px 0 12px 0;
 }
 
+/* Add transparent dark bg */
 .bg-dark {
     background-color: var(--transparent-strip-color);
 }
 
+/* Light text color */
 .txt-light {
     color: var(--light-text-color);
 }
 
+/* Flex container for div with other divs inside */
 .container {
     display: flex;
 }
 
-.horizontal {
-    flex-direction: row;
+/* Apply black text shadow */
+.blk-textshadow {
+    text-shadow: 0 0 10px #000000;
 }
 
-.vertical {
-    flex-direction: column;
+/* Apply glow to text*/
+.txt-glow {
+    text-shadow: 0 0 10px var(--accent-color);
 }
