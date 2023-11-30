@@ -44,6 +44,7 @@ h4 {
     font-size: 250%;
     text-align: center;
     color: var(--accent-color);
+    padding: 5px;
 }
 
 .section-subheading {
@@ -294,7 +295,7 @@ table {
 
 th, td {
     font-family: "Kdam Thmor Pro", sans-serif;
-    padding: 2px;
+    padding: 4px 6px;
     text-align: left;
 }
 
@@ -382,7 +383,7 @@ button:hover {
 
 /* Features */
 
-#features {
+.feature-container {
     flex-direction: column;
     width: 95%;
     margin: 10px auto 20px;
@@ -391,7 +392,7 @@ button:hover {
     gap: 10px;
 }
 
-#features > p {
+.feature-container > p {
     padding: 0 10% 10px 10%;
 }
 
@@ -477,7 +478,6 @@ button:hover {
     margin: 0 auto 20px;
     padding: 16px;
     background-color: var(--transparent-strip-color);
-    border-radius: 8px;
     color: var(--light-text-color);
 }
 
@@ -541,7 +541,7 @@ footer p {
 
     /* Features */
 
-    #features {
+    .feature-container {
         flex-flow: row wrap;
         align-items: stretch;
 
