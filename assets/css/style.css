@@ -171,7 +171,7 @@ nav {
 
 /* These are the slides */
 .hero-images .hero-img:nth-child(1){
-    background: url(../images/empty-gym.jpg) no-repeat center center/cover;;
+    background: url(../images/empty-gym.jpg) no-repeat center center/cover;
 }
 
 .hero-images .hero-img:nth-child(2){
@@ -452,7 +452,7 @@ button:hover {
 }
 
 #event-boxes > div {
-    background-color: blue;
+    background-color: black;
     width: 80%;
     height: 400px;
     padding: 20px;
@@ -463,6 +463,21 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     color: var(--accent-color)
+}
+
+#event-boxes > div div {
+    background-color: var(--transparent-strip-color);
+    border-radius: 12px 0 12px 0;
+    padding: 4px;
+
+}
+
+#group-training {
+    background: url(../images/group-training.jpg) no-repeat center center/cover;
+}
+
+#lifting-competition {
+    background: url(../images/lifting-comp.jpg) no-repeat center center/cover;
 }
 
 #event-schedule {
