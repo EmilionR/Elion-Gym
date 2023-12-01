@@ -257,6 +257,7 @@ main {
 
 /* Owner Section */
 .owner-section{
+    margin: 0 10%;
     padding: 30px 20px;
     justify-content: space-between;
     align-items: center;
@@ -264,9 +265,16 @@ main {
     flex-direction: column;
 }
 
+.owner-section p:nth-child(1) {
+    padding: 12px;
+    color: var(--accent-color);
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
 #portrait {
-    width: 10rem;
-    border: 8px solid var(--accent-color);
+    width: 12rem;
+    border: 10px solid var(--accent-color);
     border-radius: 50%;
 
 }
@@ -651,10 +659,14 @@ footer p {
     }
 
     /* Owner Section */
-    .owner-section{
+    .owner-section {
         flex-direction: row;
         padding: 30px 30px;
         justify-content: space-evenly;
+    }
+
+    .owner-section > * {
+        width: 50%;
     }
 
     /* Pricing table */
