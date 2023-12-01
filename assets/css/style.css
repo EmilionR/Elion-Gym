@@ -163,7 +163,7 @@ nav {
 }
 
 .hero-images .hero-img:nth-child(3){
-    background: url(../images/ropes.jpg) no-repeat center center/cover;
+    background: url(../images/ropes.jpg) no-repeat center top/cover;
 }
 /* Logic for clicking dots to change slides */
 .slide-dots input:nth-child(1):checked ~ .hero-images {
