@@ -43,7 +43,7 @@ h4 {
     font-size: 250%;
     text-align: center;
     color: var(--accent-color);
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 .section-subheading {
@@ -52,8 +52,8 @@ h4 {
     padding: 2px 12px;
 }
 
-.small-text {
-    font-size: 90%;
+a {
+    text-decoration: none;
 }
 
 /* Flex linebreak */
@@ -103,7 +103,6 @@ nav {
 #menu a {
     font-family: "Kdam Thmor Pro", sans-serif;
     color: var(--light-text-color);
-    text-decoration: none;
     line-height: 3rem;
     height: auto;
 }
@@ -385,6 +384,26 @@ button:hover {
 
 button:hover {
     color: var(--light-text-color);
+}
+
+/* Confirmation page */
+#thanks {
+    width: 90%;
+    flex-direction: column;
+    margin: 16px auto;
+    align-items: center;
+    gap: 20px;
+}
+
+#thanks a {
+    font-size: 200%;
+    padding: 2px 8px;
+    margin: 20px;
+}
+
+#thanks a:hover, #thanks a:focus {
+    color: var(--accent-color);
+    box-shadow: 0 0 10px var(--accent-color);
 }
 
 /* Gym rules */
@@ -723,4 +742,17 @@ footer p {
 /* Apply black text shadow */
 .blk-textshadow {
     text-shadow: 0 0 10px #000000;
+}
+
+/* Center text */
+.text-center {
+    text-align: center;
+}
+
+/* Text size modifiers */
+.small-text {
+    font-size: 90%;
+}
+.big-text {
+    font-size: 130%;
 }
