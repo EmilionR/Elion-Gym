@@ -65,7 +65,7 @@ a {
 /* Header */
 
 header {
-    background: linear-gradient(320deg, #aaaaaa 0%, #7777dd 75%);
+    background-color: var(--bg-main-color);
     position: relative;
     height: 30vh;
     min-height: 30vh;
@@ -214,7 +214,7 @@ nav {
 
 main {
     position: relative;
-    background: linear-gradient(320deg, #aaaaaa 0%, #444444 75%);
+    background: linear-gradient(300deg, var(--bg-main-color) 0%, #444444 75%);
 }
 
 /* Selling points */
@@ -292,7 +292,7 @@ main {
 }
 
 table {
-    background-color: #aaaaaa;
+    background-color: var(--bg-main-color);
     border: 1px solid;
     padding: 4px;
     width: 90%;
@@ -446,7 +446,7 @@ button:hover {
 }
 
 .feature-segment {
-    background: linear-gradient(320deg, #444444 0%, #aaaaaa 75%);
+    background: linear-gradient(320deg, #444444 0%, var(--bg-main-color) 75%);
     border-radius: 25px 0 25px 0;
     width: 100%;
     padding: 25px;
@@ -724,7 +724,6 @@ footer p {
     h1 {
         padding-top: 75px;
     }
-    
 }
 
 /* UTILITY CLASSES */
