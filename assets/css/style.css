@@ -155,15 +155,15 @@ nav {
 
 /* These are the slides */
 .hero-images .hero-img:nth-child(1){
-    background: url(../images/empty-gym.jpg) no-repeat center center/cover;
+    background: url(../images/empty-gym.webp) no-repeat center center/cover;
 }
 
 .hero-images .hero-img:nth-child(2){
-    background: url(../images/weight-rack.jpg) no-repeat center center/cover;
+    background: url(../images/weight-rack.webp) no-repeat center center/cover;
 }
 
 .hero-images .hero-img:nth-child(3){
-    background: url(../images/ropes.jpg) no-repeat center top/cover;
+    background: url(../images/ropes.webp) no-repeat center top/cover;
 }
 /* Logic for clicking dots to change slides */
 .slide-dots input:nth-child(1):checked ~ .hero-images {
@@ -225,7 +225,7 @@ main {
 }
 
 .sales-point {
-    background: url(../images/dumbbells.jpg) no-repeat center center/cover;
+    background: url(../images/dumbbells.webp) no-repeat center center/cover;
     width: 100%;
     padding: 20px;
     display: flex;
@@ -515,11 +515,11 @@ button:hover {
 }
 
 #group-training {
-    background: url(../images/group-training.jpg) no-repeat center center/cover;
+    background: url(../images/group-training.webp) no-repeat center center/cover;
 }
 
 #lifting-competition {
-    background: url(../images/lifting-comp.jpg) no-repeat center center/cover;
+    background: url(../images/lifting-comp.webp) no-repeat center center/cover;
 }
 
 #schedule {
