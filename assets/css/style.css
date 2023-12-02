@@ -86,12 +86,12 @@ h1 {
 nav {
     width: 100%;
     margin: 0 auto;
-    padding: 0px 20px 0px 20px;
-    position: absolute;
-    top: -6px;
+    padding: 20px;
+    position: fixed;
     background-color: var(--transparent-strip-color);
     display: none;
-    z-index: 11;
+    z-index: 90;
+    text-align: center;
 }
 
 #menu {
@@ -125,12 +125,19 @@ nav {
     right: 20px;
     top: 80%;
     position: absolute;
-    z-index: 12;
+    z-index: 99;
 }
 
 #navbar-toggle:checked~nav {
     display: block;
     z-index: 10;
+    top: 0;
+}
+
+#navbar-toggle:checked~.navbar-toggle-label {
+    position: fixed;
+    top: 30px;
+    color: white;
 }
 
 /* Hero image slides*/
@@ -588,6 +595,26 @@ footer p {
         padding: 12px;
     }
 
+    /* Header */
+    nav {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 3em;
+        justify-content: center;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .navbar-toggle-label {
+        display: none;
+    }
+
     /* Features */
 
     .feature-container {
@@ -614,28 +641,6 @@ footer p {
 
 /* Media query: (768px and up) */
 @media screen and (min-width: 768px) {
-    
-    /* Header */
-    header {
-        min-height: 40vh;
-        max-height: 40vh;
-    }
-    nav {
-        display: block;
-        position: relative;
-        width: 100%;
-        height: 3em;
-    }
-
-    #menu {
-        display: flex;
-        justify-content: center;
-        gap: 16px;
-    }
-
-    .navbar-toggle-label {
-        display: none;
-    }
 
     h1 {
         font-size: 400%;
@@ -650,6 +655,13 @@ footer p {
     .labels {
         top: 90%;
     }
+
+    /* Header */
+    header {
+        min-height: 40vh;
+        max-height: 40vh;
+    }
+    
 
     /* Selling points */
     .sales-point i {
@@ -769,4 +781,9 @@ footer p {
 /* Active page indicator */
 .active {
     text-shadow: 0 0 10px var(--accent-color);
+}
+
+/* Let Cover blocks show overflow */
+.wp-block-cover, .wp-block-cover-image {
+    overflow:visible
 }
