@@ -46,7 +46,7 @@ For educational purposes only, NOT a real gym. I made this as my first portfolio
   * [Media](#Media)
   * [Acknowledgments](#Acknowledgments)
 
-##User Experience (UX)
+## User Experience (UX)
 
 ### Initial Discussion
 
@@ -60,7 +60,7 @@ __Key information for the site__
 *Events taking place at the gym.
 *How to become a member.
 
-###User stories
+### User stories
 
 __Client goals__
 
@@ -85,7 +85,7 @@ __Returning visitor goals__
 
 ### Color palette
 
-_image here
+![Color Palette](documentation/color-palette.png)
 
 For this site, I wanted a strong, striking impression and found inspiration from the packaging of popular workout supplements. I wanted mostly grayscale with a single sharp red or orange color. After some initial testing, I chose orange due to better contrast.
 
