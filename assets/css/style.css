@@ -96,7 +96,7 @@ nav {
 
 #menu {
     list-style-type: none;
-    font-size: 150%;
+    font-size: 175%;
     align-items: center;
 }
 
@@ -593,6 +593,7 @@ footer p {
     h1 {
         font-size: 300%;
         padding: 12px;
+        top: 12px;
     }
 
     /* Header */
@@ -661,7 +662,14 @@ footer p {
         min-height: 40vh;
         max-height: 40vh;
     }
-    
+
+    h1 {
+        top: 24px;
+    }
+
+    nav {
+        top: 12px;
+    }
 
     /* Selling points */
     .sales-point i {
@@ -733,8 +741,9 @@ footer p {
 /* Media query: (1200px and up) */
 @media screen and (min-width: 1200px) {
 
+    /* Header */
     h1 {
-        padding-top: 75px;
+        padding-top: 50px;
     }
 }
 
