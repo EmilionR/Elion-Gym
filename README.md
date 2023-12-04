@@ -30,7 +30,7 @@ For educational purposes only, NOT a real gym. I made this as my first portfolio
   * [Colour Scheme](#Colour-Scheme)
   * [Typography](#Typography)
   * [Images](#Images)
-  * [Wireframe](#Wireframes)
+  * [Wireframe](#wireframe)
   * [Accessibility](#Accessibility)
 
 * [Technologies Used](#Technologies-Used)
@@ -86,7 +86,7 @@ __The home page has:__
   * A message thanking the user for signing up and informing them about the next steps to take.
   * A button for returning to the home page.
 
-### * Future Implementations:
+### Future Implementations:
 
 If I were to take this project up again and flesh out the website, I would add: 
 
@@ -98,32 +98,32 @@ If I were to take this project up again and flesh out the website, I would add:
 
 __Key information for the site__
 
-*When the gym is open.
-*Membership pricing.
-*What equipment exists at the gym.
-*Events taking place at the gym.
-*How to become a member.
+* When the gym is open.
+* Membership pricing.
+* What equipment exists at the gym.
+* Events taking place at the gym.
+* How to become a member.
 
 ### User stories
 
 __Client goals__
 
-*Make it easy for visitors to see what the gym can offer.
-*Make it easy for potential customers to sign up for membership.
-*Provide all relevant contact information and social media channels.
-*Reach the audience regardless of device used to view the site.
+* Make it easy for visitors to see what the gym can offer.
+* Make it easy for potential customers to sign up for membership.
+* Provide all relevant contact information and social media channels.
+* Reach the audience regardless of device used to view the site.
 
 __First-time visitor goals__
 
-*I want to get all the info about this gym, its equipment and open hours.
-*I want to navigate the site with ease on any device.
-*I want to find any relevant social media channels.
-*I want to sign up for membership if I like the gym.
+* I want to get all the info about this gym, its equipment and open hours.
+* I want to navigate the site with ease on any device.
+* I want to find any relevant social media channels.
+* I want to sign up for membership if I like the gym.
 
 __Returning visitor goals__
 
-*I want to know what's happening at the gym.
-*I want an easy way to contact the gym.
+* I want to know what's happening at the gym.
+* I want an easy way to contact the gym.
 
 ## Design
 
@@ -148,7 +148,7 @@ Credits for photos are found in the Credits section.
 
 I made wireframes for mobile and desktop versions of each page. I had a firm plan and stayed mostly true to the wireframe. However, I had to make some slight changes to the positioning of banner contents, as well as the list containers on the features page.
 
-[Wireframe](documentation/pp1-wireframe.png)
+![Wireframe](documentation/pp1-wireframe.png)
 
 ### Accessibility
 
@@ -234,12 +234,12 @@ I repeated this process every time I implemented a new feature or changed anythi
 
 The site was also tested on a number of browsers, including:
 
-*Google Chrome
-*Mozilla Firefox
-*Microsoft Edge
-*Samsung Internet
-*Brave
-*Safari
+* Google Chrome
+* Mozilla Firefox
+* Brave
+* Samsung Internet
+* Microsoft Edge
+* Safari
 
 ### Solved Bugs
 
