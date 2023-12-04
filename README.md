@@ -12,6 +12,13 @@ For educational purposes only, NOT a real gym. I made this as my first portfolio
 ## Contents
 
 * [Features](#Features)
+  * [Existing Features](#existing-features)
+    * [Home page](#home-page)
+    * [Sign-up page](#sign-up-page)
+    * [Features page](#features-page)
+    * [Events page](#events-page)
+    * [Confirmation page](#confirmation-page)
+  * [Future Implementations](#future-implementations)
 
 * [User Experience (UX)](#User-Experience-(UX))
   * [Initial Discussion](#Initial-Discussion)
@@ -44,30 +51,47 @@ For educational purposes only, NOT a real gym. I made this as my first portfolio
 
 ## Features
 
+### Existing Features
+
 The site has four main pages accessible via the navigation menu, plus one confirmation page for signing up. The latter is only accessible by filling out the sign-up form and can not be reached via the navigation menu.
 
-* All pages on the website have:
+All pages on the website have:
   * A header with a navigation menu, containing links to each of the four pages. The current page lights up in the menu. Navigation is always visible in a horizontal strip on bigger screens. On smaller screens, it turns into a dropdown menu which is hidden until opened by a traditional burger toggle. This is meant to avoid clutter and make navigation intuitive regardless of screen size.
   * A footer with another home link, a set of contact details, links to social media pages, and copyright information. The links are inside icons to reduce clutter and to let the viewer know instantly what they're looking at.
-* Home Page:
+
+#### Home Page:
+![Home page](documentation/home-page.png)
+__The home page has:__
   * Four panels of information such as business hours and selling points, giving the brief and snappy version of what sets the gym apart.
   * A message from the owner, to provide the viewer a face and a feel for the vibe of the gym.
-* Join Page:
+#### Sign-up Page:
+![Signup page](documentation/join-page.png)
+__The sign-up page has:__
   * Information about the costs of joining the gym and what's included in the price.
   * A form for signing a new membership.
   * A panel with the rules of the gym.
-* Features Page:
+#### Features Page:
+![Features page](documentation/features-page.png)
+__The features page has:__
   * Three panels listing the diverse excercise equipment found inside the gym.
   * A list of products sold at the gym and their prices.
-* Events Page:
+#### Events Page:
+![Events page](documentation/events-page.png)
+__The events page has:__
   * Two panels about upcoming events.
   * An information panel about scheduled events.
-* Confirmation Page:
+#### Confirmation Page:
+![Confirmation page](documentation/confirmation-page.png)
+__The home page has:__
   * A message thanking the user for signing up and informing them about the next steps to take.
   * A button for returning to the home page.
-* Future Implementations:
-  * Install a carousel for user testimonials/reviews.
-  * A page about the staff
+
+### * Future Implementations:
+
+If I were to take this project up again and flesh out the website, I would add: 
+
+  * A a carousel for user testimonials/reviews on the landing page.
+  * A page about the staff.
   * A blog page for news and content marketing purposes.
 
 ## User Experience (UX)
@@ -189,20 +213,33 @@ Peer review input:
 
 ### Validator Testing
 
-The site pass the tests in
+No errrors reported by W3C validators.
 
-Index
-Join
-Features
-Events
-Thanks
-Style.css
+* HTML
+  * [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Femilionr.github.io%2Fportfolio-project-1%2F)
+  * [Sign-up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Femilionr.github.io%2Fportfolio-project-1%2Fjoin.html)
+  * [Features page](https://validator.w3.org/nu/?doc=https%3A%2F%2Femilionr.github.io%2Fportfolio-project-1%2Ffeatures.html)
+  * [Events page](https://validator.w3.org/nu/?doc=https%3A%2F%2Femilionr.github.io%2Fportfolio-project-1%2Fevents.html)
+  * [Confirmation page](https://validator.w3.org/nu/?doc=https%3A%2F%2Femilionr.github.io%2Fportfolio-project-1%2Fthanks.html)
+* CSS
+  * [Style.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femilionr.github.io%2Fportfolio-project-1%2Fthanks.html&profile=css3svg&usermedium=all&warning=1&vextwarning)
 
 ### Manual Testing
 
 I thoroughly tested every part of this website, and also sent the link for testing to fellow students.
 
-My manual testing consisted of clicking everything possible, resizing the viewport into all possible sizes and proportions, and testing on my phone while changing the orientation. I repeated this process every time I implemented a new feature or changed anything about existing features. I tried to interact with things in ways that were never intended just to make sure nothing breaks if someone were to do so on accident.
+My manual testing consisted of clicking everything possible, resizing the viewport into all possible sizes and proportions, checking dev tools for warnings and dead CSS. I also did a lot of testing on my phone while changing the orientation.
+
+I repeated this process every time I implemented a new feature or changed anything major about existing features. Plus, I tried to interact with things in ways that were never intended just to make sure nothing breaks if someone were to do so on accident.
+
+The site was also tested on a number of browsers, including:
+
+*Google Chrome
+*Mozilla Firefox
+*Microsoft Edge
+*Samsung Internet
+*Brave
+*Safari
 
 ### Solved Bugs
 
@@ -216,6 +253,16 @@ My manual testing consisted of clicking everything possible, resizing the viewpo
 
 On certain smartphone screens, navigation links may be temporarily displaced vertically by a few pixels if the user turns the phone while the navigation menu is open. It has no impact on interactions and I only encountered this bug on one phone (Galaxy S22). When trying to replicate it on other phones or in the dev tools inspector, everything was normal.
 
+### Lighthouse
+
+![Lighthouse Score](documentation/lighthouse-score.png)
+
+Using Google's Lighthouse, I tested the site for performance, accessibility, best practices, and SEO. After assessing the initial score and making some small adjustments, it now comes in at 96% for performance, and 100% for everything else.
+
+Closing those last few percent of performance would not be feasible using these technologies and within the context of this simple HTML+CSS project.
+
+While testing for mobile gave a somewhat lower and more inconsistent reading for performance, this is mostly due to Lighthouse's emulation of poor 3g/wifi connectivity.
+
 ## Credits
 
 ### Content
@@ -226,13 +273,19 @@ All content is original.
 
 **Images used**
 
-"empty-gym" [Photo by Jelmer Assink](https://unsplash.com/@jelmerassink?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jelmer Assink</a> on <a href="https://unsplash.com/photos/barbell-on-rack-gzeTjGu3b_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+"empty-gym.webp" [Photo by Jelmer Assink](https://unsplash.com/photos/barbell-on-rack-gzeTjGu3b_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
 "weight-rack" [Photo by Ivan Samkov](https://www.pexels.com/sv-se/foto/gym-utrustning-hantlar-hantel-4162451/)
-"ropes" [Photo by Chase Kinney](https://unsplash.com/@chasekinney?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chase Kinney</a> on <a href="https://unsplash.com/photos/person-holding-black-exercise-rope-FMQBLyhD2HU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-"group-training" [Photo by Victor Freitas](https://unsplash.com/@victorfreitas?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Victor Freitas</a> on <a href="https://unsplash.com/photos/person-about-to-lift-the-weight-plate-Btl6ZNdIfdQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-"lifting-comp" [Photo by](https://unsplash.com/@victorfreitas?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Victor Freitas</a> on <a href="https://unsplash.com/photos/a-man-lifting-a-barbell-in-a-gym-71T4vSUphQI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-"dumbbells" [Photo by Samuel Girven](https://unsplash.com/@samuelgirven?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Samuel Girven</a> on <a href="https://unsplash.com/photos/dumbbells-on-floor-VJ2s0c20qCo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-"owner" Image generated with [Picsart](https://picsart.com/)
+
+"ropes.webp" [Photo by Chase Kinney](https://unsplash.com/photos/person-holding-black-exercise-rope-FMQBLyhD2HU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+"group-training.webp" [Photo by Victor Freitas](https://unsplash.com/photos/person-about-to-lift-the-weight-plate-Btl6ZNdIfdQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+"lifting-comp.webp" [Photo by](https://unsplash.com/photos/a-man-lifting-a-barbell-in-a-gym-71T4vSUphQI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+"dumbbells.webp" [Photo by Samuel Girven](https://unsplash.com/photos/dumbbells-on-floor-VJ2s0c20qCo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+"owner.webp" Image generated with [Picsart](https://picsart.com/)
 
 ### Tutorials & Code Used
 
