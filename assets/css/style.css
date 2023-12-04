@@ -6,7 +6,7 @@
     --transparent-strip-color: rgba(0, 0, 0, 0.75);
     --accent-color: #ffa500;
     --light-text-color: #ffffff;
-  }
+}
 
 /* Override wildcard selector */
 * {
@@ -25,7 +25,10 @@ body {
     font-weight: 600;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: "Kdam Thmor Pro", sans-serif;
 }
 
@@ -106,7 +109,8 @@ nav {
     height: auto;
 }
 
-#menu a:hover, #menu a:focus {
+#menu a:hover,
+#menu a:focus {
     color: var(--accent-color);
 }
 
@@ -159,27 +163,28 @@ nav {
 }
 
 /* These are the slides */
-.hero-images .hero-img:nth-child(1){
+.hero-images .hero-img:nth-child(1) {
     background: url(../images/empty-gym.webp) no-repeat center center/cover;
 }
 
-.hero-images .hero-img:nth-child(2){
+.hero-images .hero-img:nth-child(2) {
     background: url(../images/weight-rack.webp) no-repeat center center/cover;
 }
 
-.hero-images .hero-img:nth-child(3){
+.hero-images .hero-img:nth-child(3) {
     background: url(../images/ropes.webp) no-repeat center top/cover;
 }
+
 /* Logic for clicking dots to change slides */
-.slide-dots input:nth-child(1):checked ~ .hero-images {
+.slide-dots input:nth-child(1):checked~.hero-images {
     left: 0vw;
 }
 
-.slide-dots input:nth-child(2):checked ~ .hero-images {
+.slide-dots input:nth-child(2):checked~.hero-images {
     left: -100vw;
 }
 
-.slide-dots input:nth-child(3):checked ~ .hero-images {
+.slide-dots input:nth-child(3):checked~.hero-images {
     left: -200vw;
 }
 
@@ -209,9 +214,9 @@ nav {
 }
 
 /* Make dot labels act like radio buttons */
-.slide-dots input:nth-child(1):checked ~ .labels label:nth-child(1),
-.slide-dots input:nth-child(2):checked ~ .labels label:nth-child(2),
-.slide-dots input:nth-child(3):checked ~ .labels label:nth-child(3) {
+.slide-dots input:nth-child(1):checked~.labels label:nth-child(1),
+.slide-dots input:nth-child(2):checked~.labels label:nth-child(2),
+.slide-dots input:nth-child(3):checked~.labels label:nth-child(3) {
     background-color: var(--light-text-color);
 }
 
@@ -261,7 +266,7 @@ main {
 }
 
 /* Owner Section */
-.owner-section{
+.owner-section {
     margin: 0 10%;
     padding: 30px 20px;
     justify-content: space-between;
@@ -303,7 +308,8 @@ table {
     width: 90%;
 }
 
-th, td {
+th,
+td {
     font-family: "Kdam Thmor Pro", sans-serif;
     padding: 4px 6px;
     text-align: left;
@@ -366,7 +372,7 @@ form div {
     gap: 16px;
 }
 
-#join-agree > * {
+#join-agree>* {
     width: 50%;
 }
 
@@ -412,7 +418,8 @@ button:hover {
     margin: 20px;
 }
 
-#thanks a:hover, #thanks a:focus {
+#thanks a:hover,
+#thanks a:focus {
     color: var(--accent-color);
     box-shadow: 0 0 10px var(--accent-color);
 }
@@ -446,7 +453,7 @@ button:hover {
     gap: 10px;
 }
 
-.feature-container > p {
+.feature-container>p {
     padding: 0 10% 10px 10%;
 }
 
@@ -495,7 +502,7 @@ button:hover {
     gap: 16px;
 }
 
-#event-boxes > div {
+#event-boxes>div {
     background-color: black;
     width: 80%;
     height: 400px;
@@ -508,12 +515,12 @@ button:hover {
     color: var(--accent-color)
 }
 
-#event-boxes > div > h3 {
+#event-boxes>div>h3 {
     font-size: 150%;
     padding: 4px 10px;
 }
 
-#event-boxes > div div {
+#event-boxes>div div {
     background-color: var(--transparent-strip-color);
     padding: 10px;
 
@@ -682,7 +689,7 @@ footer p {
         justify-content: space-evenly;
     }
 
-    .owner-section > * {
+    .owner-section>* {
         width: 50%;
     }
 
@@ -705,7 +712,7 @@ footer p {
         flex-direction: row;
         align-items: stretch;
     }
-    
+
     .sales-point {
         width: 50%;
         padding: 60px;
@@ -714,9 +721,9 @@ footer p {
 
     /* Move icon back same side */
     .odd {
-    flex-direction: row;
+        flex-direction: row;
     }
-    
+
     #rules {
         flex-flow: row wrap;
     }
@@ -781,6 +788,7 @@ footer p {
 .small-text {
     font-size: 90%;
 }
+
 .big-text {
     font-size: 130%;
 }
@@ -791,6 +799,7 @@ footer p {
 }
 
 /* Let Cover blocks show overflow */
-.wp-block-cover, .wp-block-cover-image {
-    overflow:visible
+.wp-block-cover,
+.wp-block-cover-image {
+    overflow: visible
 }

@@ -12,21 +12,20 @@ For educational purposes only, NOT a real gym. I made this as my first portfolio
   * [Initial Discussion](#Initial-Discussion)
   * [User Stories](#User-Stories)
 
+* [Features](#Features)
+
+* [Deployment](#Deployment)
+
 * [Design](#Design)
   * [Colour Scheme](#Colour-Scheme)
   * [Typography](#Typography)
   * [Images](#Images)
   * [Wireframe](#Wireframes)
-  * [Features](#Features)
   * [Accessibility](#Accessibility)
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
   * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
-
-* [Deployment & Local Development](#Deployment-&-Local-Development)
-  * [Deployment](#Deployment)
-  * [Local Development](#Local-Development)
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
@@ -45,6 +44,34 @@ For educational purposes only, NOT a real gym. I made this as my first portfolio
   * [Content](#Content)
   * [Media](#Media)
   * [Acknowledgments](#Acknowledgments)
+
+## Features
+
+The site has four main pages accessible via the navigation menu, plus one confirmation page for signing up. The latter is only accessible by filling out the sign-up form and can not be reached via the navigation menu.
+
+* All pages on the website have:
+  * A header with a navigation menu, containing links to each of the four pages. The current page lights up in the menu. Navigation is always visible in a horizontal strip on bigger screens. On smaller screens, it turns into a dropdown menu which is hidden until opened by a traditional burger toggle. This is meant to avoid clutter and make navigation intuitive regardless of screen size.
+  * A footer with another home link, a set of contact details, links to social media pages, and copyright information. The links are inside icons to reduce clutter and to let the viewer know instantly what they are.
+* Home Page:
+  * Four panels of information such as business hours and selling points, giving the brief and snappy version of what sets the gym apart.
+  * A message from the owner, to provide the viewer a face and a feel for the vibe of the gym.
+* Join Page:
+  * Information about the costs of joining the gym and what's included in the price.
+  * A form for signing a new membership.
+  * A panel with the rules of the gym.
+* Features Page:
+  * Three panels listing the diverse excercise equipment found inside the gym.
+  * A list of products sold at the gym and their prices.
+* Events Page:
+  * Two panels about upcoming events.
+  * An information panel about scheduled events.
+* Confirmation Page:
+  * A message thanking the user for signing up and informing them about the next steps to take.
+  * A button for returning to the home page.
+* Future Implementations:
+  * Install a carousel for user testimonials/reviews.
+  * A page about the staff
+  * A blog page for news and content marketing purposes.
 
 ## User Experience (UX)
 
@@ -106,34 +133,6 @@ I made wireframes for mobile and desktop versions of each page. I had a firm pla
 
 [Wireframe](documentation/pp1-wireframe.png)
 
-### Features
-
-The site has four main pages accessible via the navigation menu, plus one confirmation page for signing up. The latter is only accessible by filling out the sign-up form and can not be reached via the navigation menu.
-
-* All pages on the website have:
-  * A header with a navigation menu, containing links to each of the four pages. The current page lights up in the menu. Navigation is always visible in a horizontal strip on bigger screens. On smaller screens, it turns into a dropdown menu which is hidden until opened by a traditional burger toggle. This is meant to avoid clutter and make navigation intuitive regardless of screen size.
-  * A footer with another home link, a set of contact details, links to social media pages, and copyright information. The links are inside icons to reduce clutter and to let the viewer know instantly what they are.
-* Home Page:
-  * Four panels of information such as business hours and selling points, giving the brief and snappy version of what sets the gym apart.
-  * A message from the owner, to provide the viewer a face and a feel for the vibe of the gym.
-* Join Page:
-  * Information about the costs of joining the gym and what's included in the price.
-  * A form for signing a new membership.
-  * A panel with the rules of the gym.
-* Features Page:
-  * Three panels listing the diverse excercise equipment found inside the gym.
-  * A list of products sold at the gym and their prices.
-* Events Page:
-  * Two panels about upcoming events.
-  * An information panel about scheduled events.
-* Confirmation Page:
-  * A message thanking the user for signing up and informing them about the next steps to take.
-  * A button for returning to the home page.
-* Future Implementations:
-  * Install a carousel for user testimonials/reviews.
-  * A page about the staff
-  * A blog page for news and content marketing purposes.
-
 ### Accessibility
 
 I designed this website with accessibility in mind, using the following procedures:
@@ -178,13 +177,12 @@ Web Disability Simulator - To check accessibility.
 
 Shields.io - For the badges in the ReadMe.
 
-## Deployment & Local Development
+## Deployment
 
-### Deployment
-
-The page was deployed using GitHub Pages.
-
-### Local Development
+The page was deployed with GitHub Pages, using the following procedure:
+1. First, go to the Settings tab of this repository.
+2. Select the Master branch from the source section dropdown menu.
+3. The page automatically refreshes and confirms the successful deployment.ment
 
 ## Testing
 
