@@ -1,18 +1,21 @@
 # ELION GYM
-This is a simple website designed with responsive functionality as a central priority. The goal is to give visitors a good browsing experience on a variety of devices and help the owner to get new customers.
 
 ![Project-image](documentation/pp1-responsive.png)
+
+This is a simple website designed with responsive functionality as a central priority. The goal is to give visitors a good browsing experience on a variety of devices and help the owner to get new customers.
+
+Elion Gym is a medium-size gym in a fairly big city. Due to the stiff competition with other gyms, the owner wants to communicate better what sets his gym apart and draw more new members to the gym. The site is designed with the intention to quickly get all relevant information across while also giving the viewer a sense of what it's like to be at the gym.
 
 [View the Elion Gym website here](https://emilionr.github.io/portfolio-project-1/)
 For educational purposes only, NOT a real gym. I made this as my first portfolio project for Code Institute.
 
 ## Contents
 
+* [Features](#Features)
+
 * [User Experience (UX)](#User-Experience-(UX))
   * [Initial Discussion](#Initial-Discussion)
   * [User Stories](#User-Stories)
-
-* [Features](#Features)
 
 * [Deployment](#Deployment)
 
@@ -29,21 +32,15 @@ For educational purposes only, NOT a real gym. I made this as my first portfolio
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
+  * [Manual Testing](#manual-testing)
   * [Solved Bugs](#Solved-Bugs)
   * [Known Bugs](#Known-Bugs)
-  * [Testing User Stories](#Testing-User-Stories)
   * [Lighthouse](#Lighthouse)
-    * [Index Page](#Index-Page)
-    * [Join Page](#Join-Page)
-    * [Features Page](#Features-Page)
-    * [Confirmation Page](#Confirmation-Page)
-  * [Full Testing](#Full-Testing)
   
 * [Credits](#Credits)
-  * [Code Used](#Code-Used)
   * [Content](#Content)
   * [Media](#Media)
-  * [Acknowledgments](#Acknowledgments)
+  * [Tutorials & Code Used](#tutorials--code-used)
 
 ## Features
 
@@ -51,7 +48,7 @@ The site has four main pages accessible via the navigation menu, plus one confir
 
 * All pages on the website have:
   * A header with a navigation menu, containing links to each of the four pages. The current page lights up in the menu. Navigation is always visible in a horizontal strip on bigger screens. On smaller screens, it turns into a dropdown menu which is hidden until opened by a traditional burger toggle. This is meant to avoid clutter and make navigation intuitive regardless of screen size.
-  * A footer with another home link, a set of contact details, links to social media pages, and copyright information. The links are inside icons to reduce clutter and to let the viewer know instantly what they are.
+  * A footer with another home link, a set of contact details, links to social media pages, and copyright information. The links are inside icons to reduce clutter and to let the viewer know instantly what they're looking at.
 * Home Page:
   * Four panels of information such as business hours and selling points, giving the brief and snappy version of what sets the gym apart.
   * A message from the owner, to provide the viewer a face and a feel for the vibe of the gym.
@@ -74,10 +71,6 @@ The site has four main pages accessible via the navigation menu, plus one confir
   * A blog page for news and content marketing purposes.
 
 ## User Experience (UX)
-
-### Initial Discussion
-
-Elion Gym is a medium-size gym in a fairly big city. Due to the stiff competition with other gyms, the owner wants to communicate better what sets his gym apart and draw more new members to the gym.
 
 __Key information for the site__
 
@@ -175,8 +168,6 @@ WAVE Evaluation Tool - To check accessibility.
 
 Web Disability Simulator - To check accessibility.
 
-Shields.io - For the badges in the ReadMe.
-
 ## Deployment
 
 The page was deployed with GitHub Pages, using the following procedure:
@@ -196,7 +187,9 @@ Peer review input:
 * s
 * s
 
-### W3C Validator
+### Validator Testing
+
+The site pass the tests in
 
 Index
 Join
@@ -204,6 +197,12 @@ Features
 Events
 Thanks
 Style.css
+
+### Manual Testing
+
+I thoroughly tested every part of this website, and also sent the link for testing to fellow students.
+
+My manual testing consisted of clicking everything possible, resizing the viewport into all possible sizes and proportions, and testing on my phone while changing the orientation. I repeated this process every time I implemented a new feature or changed anything about existing features. I tried to interact with things in ways that were never intended just to make sure nothing breaks if someone were to do so on accident.
 
 ### Solved Bugs
 
@@ -213,23 +212,11 @@ Style.css
 4. Footer contents would scramble and end up in the wrong order on small screen sizes. I solved this by arranging contents in separate dividers for rows and creating a reusable line-break element for flex layouts.
 5. Header contents would move out of position and fight for space at certain screen sizes. This was solved when I changed the margins and paddings from percentages to specific numbers.
 
-### Known Bugs
+### Unfixed Bugs
 
 On certain smartphone screens, navigation links may be temporarily displaced vertically by a few pixels if the user turns the phone while the navigation menu is open. It has no impact on interactions and I only encountered this bug on one phone (Galaxy S22). When trying to replicate it on other phones or in the dev tools inspector, everything was normal.
 
-### Testing User Stories
-
-### Lighthouse
-
-### Full Testing
-
 ## Credits
-
-
-
-### Code Used
-
-While I did not directly copy any code, I took a lot of inspiration from [Theodore Coding's image slider video](https://www.youtube.com/watch?v=Ll5JIjdwQEM) when making my header image slides.
 
 ### Content
 
@@ -247,6 +234,6 @@ All content is original.
 "dumbbells" [Photo by Samuel Girven](https://unsplash.com/@samuelgirven?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Samuel Girven</a> on <a href="https://unsplash.com/photos/dumbbells-on-floor-VJ2s0c20qCo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 "owner" Image generated with [Picsart](https://picsart.com/)
 
-### Acknowledgements
+### Tutorials & Code Used
 
-The Code Institute team.
+While I did not directly copy anything, I took a lot of inspiration from [Theodore Coding's image slider tutorial](https://www.youtube.com/watch?v=Ll5JIjdwQEM) when making my header image slides.
