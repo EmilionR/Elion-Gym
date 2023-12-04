@@ -215,7 +215,7 @@ Style.css
 
 ### Known Bugs
 
-There are no known bugs as of now.
+On certain smartphone screens, navigation links may be temporarily displaced vertically by a few pixels if the user turns the phone while the navigation menu is open. It has no impact on interactions and I only encountered this bug on one phone (Galaxy S22). When trying to replicate it on other phones or in the dev tools inspector, everything was normal.
 
 ### Testing User Stories
 
