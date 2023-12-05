@@ -37,7 +37,7 @@ For educational purposes only, NOT a real gym. I made this as my first portfolio
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
 * [Testing](#Testing)
-  * [W3C Validator](#validator-testing)
+  * [Validator Testing](#validator-testing)
   * [Manual Testing](#manual-testing)
   * [Solved Bugs](#solved-bugs)
   * [Known Bugs](#unfixed-bugs)
