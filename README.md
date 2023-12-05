@@ -20,8 +20,7 @@ For educational purposes only, NOT a real gym. I made this as my first portfolio
     * [Confirmation page](#confirmation-page)
   * [Future Implementations](#future-implementations)
 
-* [User Experience (UX)](#User-Experience-(UX))
-  * [Initial Discussion](#Initial-Discussion)
+* [User Experience](#User-Experience)
   * [User Stories](#User-Stories)
 
 * [Deployment](#Deployment)
@@ -35,14 +34,14 @@ For educational purposes only, NOT a real gym. I made this as my first portfolio
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
-  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
 * [Testing](#Testing)
-  * [W3C Validator](#W3C-Validator)
+  * [W3C Validator](#validator-testing)
   * [Manual Testing](#manual-testing)
-  * [Solved Bugs](#Solved-Bugs)
-  * [Known Bugs](#Known-Bugs)
-  * [Lighthouse](#Lighthouse)
+  * [Solved Bugs](#solved-bugs)
+  * [Known Bugs](#unfixed-bugs)
+  * [Lighthouse](#lighthouse)
   
 * [Credits](#Credits)
   * [Content](#Content)
@@ -94,7 +93,7 @@ If I were to take this project up again and flesh out the website, I would add:
   * A page about the staff.
   * A blog page for news and content marketing purposes.
 
-## User Experience (UX)
+## User Experience
 
 __Key information for the site__
 
@@ -148,7 +147,7 @@ Credits for photos are found in the Credits section.
 
 I made wireframes for mobile and desktop versions of each page. I had a firm plan and stayed mostly true to the wireframe. However, I had to make some slight changes to the positioning of banner contents, as well as the list containers on the features page.
 
-![Wireframe](documentation/pp1-wireframe.png)
+![Wireframe](documentation/pp1-wifreframe.png)
 
 ### Accessibility
 
