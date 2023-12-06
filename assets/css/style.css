@@ -397,6 +397,7 @@ button {
 
 button:hover {
     box-shadow: 0 0 10px var(--accent-color);
+    cursor: pointer;
 }
 
 button:hover {
