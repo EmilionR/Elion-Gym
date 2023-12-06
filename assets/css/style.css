@@ -266,7 +266,7 @@ main {
 }
 
 /* Owner Section */
-.owner-section {
+.owner-wrapper {
     margin: 0 10%;
     padding: 30px 20px;
     justify-content: space-between;
@@ -275,7 +275,7 @@ main {
     flex-direction: column;
 }
 
-.owner-section p:nth-child(1) {
+.owner-wrapper p:nth-child(1) {
     padding: 12px;
     color: var(--accent-color);
     margin-bottom: 5px;
@@ -683,13 +683,13 @@ footer p {
     }
 
     /* Owner Section */
-    .owner-section {
+    .owner-wrapper {
         flex-direction: row;
         padding: 30px 30px;
         justify-content: space-evenly;
     }
 
-    .owner-section>* {
+    .owner-wrapper>* {
         width: 50%;
     }
 
