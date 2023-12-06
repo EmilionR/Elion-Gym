@@ -79,12 +79,18 @@ header {
     font-family: "Kdam Thmor Pro", sans-serif;
     display: block;
     position: relative;
-    padding-top: 50px auto;
+    padding-top: 5px;
     width: 100%;
     margin: 80px 10px 0;
     text-align: center;
     font-size: 250%;
     color: var(--accent-color);   
+}
+
+#header-logo:hover,
+#header-logo:focus {
+    color: var(--light-text-color);
+    text-shadow: 0 0 20px #ffa500;
 }
 
 /* Navbar */
@@ -657,8 +663,6 @@ footer p {
 /* Media query: (768px and up) */
 @media screen and (min-width: 768px) {
 
-    
-
     .hero-images .hero-img {
         height: 40vh;
         min-height: 40vh;
@@ -676,7 +680,8 @@ footer p {
 
     #header-logo {
         font-size: 400%;
-        margin: 40px 10px 0;
+        margin: 25px 10px 0;
+        top: 10px;
     }
 
     nav {
