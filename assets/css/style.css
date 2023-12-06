@@ -74,15 +74,15 @@ header {
     overflow-x: hidden;
     overflow-y: hidden;
     min-height: 200px;
+    max-height: 300px;
+    text-align: center;
 }
 
 #header-logo {
     font-family: "Kdam Thmor Pro", sans-serif;
-    display: block;
     position: relative;
-    padding-top: 5px;
-    width: 100%;
-    margin: 80px 10px 0;
+    padding: 5px auto 0;
+    margin: 80px auto;
     text-align: center;
     font-size: 250%;
     color: var(--accent-color);   
@@ -609,21 +609,21 @@ footer p {
 @media screen and (min-width: 480px) {
     .section-subheading {
         font-size: 200%;
-    }
-
-    /* General Styling */
-    #header-logo {
-        font-size: 300%;
-        margin: 35px 10px 0;
-    }
+    } 
 
     /* Header */
+    #header-logo {
+        font-size: 300%;
+        top: 40px;
+    }
+
     nav {
         display: flex;
         position: relative;
         width: 100%;
         height: 3em;
         justify-content: center;
+        top: 40px;
     }
 
     #menu {
@@ -681,12 +681,11 @@ footer p {
 
     #header-logo {
         font-size: 400%;
-        margin: 25px 10px 0;
-        top: 10px;
+        top: 50px;
     }
 
     nav {
-        top: 12px;
+        top: 50px;
     }
 
     /* Selling points */
@@ -761,8 +760,10 @@ footer p {
 
     /* Header */
     #header-logo {
-        padding-top: 20px;
-        top: 10px;
+        top: 70px;
+    }
+    nav {
+        top: 70px;
     }
 }
 
