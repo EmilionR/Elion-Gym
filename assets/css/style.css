@@ -393,15 +393,13 @@ button {
     border: none;
     border-radius: 12px;
     line-height: 200%;
-}
-
-button:hover {
-    box-shadow: 0 0 10px var(--accent-color);
     cursor: pointer;
 }
 
-button:hover {
+button:hover,
+button:focus {
     color: var(--light-text-color);
+    box-shadow: 0 0 10px var(--accent-color);
 }
 
 /* Confirmation page */
@@ -563,7 +561,8 @@ footer {
     padding-right: 16px;
 }
 
-.footer-logo:hover {
+.footer-logo:hover,
+.footer-logo:focus {
     color: var(--light-text-color);
     text-shadow: 0 0 10px var(--accent-color);
 }

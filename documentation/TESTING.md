@@ -99,3 +99,37 @@ The site was also tested in a number of browsers, including:
 * Safari
 
 I put the site up for peer review and received feedback about a bug that causes the footer to leave the bottom of the screen at specific viewport dimensions. I could not replicate this bug but attempted to fix the position more firmly.
+
+__Home Page__
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Navigation toggle | Toggle opens/closes navigation menu | Tap the toggle | Menu opens/closes | Pass |
+| Link hover effects | All links should visually change when interacted with | Hover over and click all links, tab-focus through page | All links light up | Pass |
+
+__Join Page__
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Sign-up form | Sign-up form takes the right input and takes users to confirmation page | Fill out form and click the button | Sign-up form works as intended | Pass |
+| Form inputs | Form input requires the right input and rejects the wrong input | Fill out the form with varying information | Form rejects bad input and won't submit a partially filled form | Pass |
+| Form labels | Clicking or hovering over labels should activate inputs | Hover and click on all input labels | Inputs light up when hovering over labels, clicking labels activates related inputs | Pass |
+| Hover effect | Inputs, labels, and buttons light up when hovered over | Hover over inputs, labels, and buttons | Everything lights up as intended | Pass |
+| Button pointer cursor | The cursor should turn into a pointer when hovering over the button | Hover over button | Cursor changes to pointer | Pass |
+
+
+__Features Page__
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+
+
+__Events Page__
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+
+__Confirmation Page__
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
