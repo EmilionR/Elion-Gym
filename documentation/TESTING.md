@@ -34,7 +34,7 @@ No errrors reported by W3C validators.
 
 ### Lighthouse
 
-![Lighthouse Score](documentation/lighthouse-score.png)
+![Lighthouse Score](lighthouse-score.png)
 
 Using Google's Lighthouse, I tested the site for performance, accessibility, best practices, and SEO. After assessing the initial score and making some small adjustments, it now comes in at 96% for performance, and 100% for everything else.
 
