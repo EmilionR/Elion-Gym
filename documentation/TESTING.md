@@ -1,10 +1,25 @@
+# ELION GYM - TESTING
 
-* [Validator Testing](#validator-testing)
-* [Lighthouse](#lighthouse)
+![Image of the site on devices](pp1-responsive.png)
+
+Visit live deployed site: [Elion Gym](https://emilionr.github.io/portfolio-project-1/)
+
+* [Automated Testing](#automated-testing)
+  * [Validator Testing](#validator-testing)
+  * [Lighthouse](#lighthouse)
 * [Manual Testing](#manual-testing)
+  * [Testing User Stories](#testing-user-stories)
+  * [Full Testing](#full-testing)
 
+I frequently tested all pages throughout the development process. Most of this testing was done with the dev tools in my browser.
 
-## Validator Testing
+Throughout development, I would resize the viewports and try to abuse the pages to see if something would break the layout and whether the site was responsive enough.
+
+The console and various tabs of the dev tools helped me find errors and warnings and deal with them accordingly.
+
+## Automated Testing
+
+### Validator Testing
 
 No errrors reported by W3C validators.
 
@@ -17,7 +32,7 @@ No errrors reported by W3C validators.
 * CSS
   * [Style.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femilionr.github.io%2Fportfolio-project-1%2Fthanks.html&profile=css3svg&usermedium=all&warning=1&vextwarning)
 
-## Lighthouse
+### Lighthouse
 
 ![Lighthouse Score](documentation/lighthouse-score.png)
 
@@ -25,9 +40,13 @@ Using Google's Lighthouse, I tested the site for performance, accessibility, bes
 
 Closing those last few percent of performance would not be feasible using these technologies and within the context of this simple HTML+CSS project.
 
-While testing for mobile gave a somewhat lower and more inconsistent reading for performance, this is mostly due to Lighthouse's emulation of poor 3g/wifi connectivity.
+While testing for mobile gave a somewhat lower and more inconsistent reading for performance, this is mostly due to Lighthouse's emulation of poor 3g/wifi connectivity and only represents a worst-case scenario.
 
 ## Manual Testing
+
+### Testing User Stories
+
+### Full Testing
 
 I thoroughly tested every part of this website, and also sent the link for testing to fellow students.
 
