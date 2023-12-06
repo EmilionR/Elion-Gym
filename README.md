@@ -197,19 +197,7 @@ The page was deployed with GitHub Pages, using the following procedure:
 
 ## Testing
 
-I frequently tested all pages throughout the development process. Most of this testing was done with the dev tools in my browser. Throughout development, I would resize the viewports and try to abuse the pages to see if something would break the layout and whether the site was responsive enough.
-
-Mentor input:
-* s
-* s
-
-Peer review input:
-* s
-* s
-
-### Full Testing
-
-Please refer to [TESTING.md](documentation/testing.md) for testing documentation.
+Please refer to [TESTING.md](documentation/TESTING.md) for testing documentation.
 
 ### Solved Bugs
 
