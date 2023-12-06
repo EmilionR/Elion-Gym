@@ -106,6 +106,8 @@ __Home Page__
 | --- | --- | --- | --- | --- |
 | Navigation toggle | Toggle opens/closes navigation menu | Tap the toggle | Menu opens/closes | Pass |
 | Link hover effects | All links should visually change when interacted with | Hover over and click all links, tab-focus through page | All links light up | Pass |
+| Panel positioning | Info panels arrange in column or grid according to screen size | View page on different screen sizes | Panels rearrange as intended | Pass |
+| Icon positioning | Panel icons alternate between right and left side on mobile, always left on larger screens | View page on different screen sizes | Icons shift as intended | Pass |
 
 __Join Page__
 
@@ -122,14 +124,17 @@ __Features Page__
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-
+| Panel positioning | List panels change order and position according to available screen space | View page on different screen sizes | Panels shift around correctly | Pass |
+| Pane stretching | Panels always stretch to a cohesive length across each row and shrink to minimum height when alone | View page on different screen sizes | Panel size adapts as intended | Pass |
 
 __Events Page__
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
+| Event panels | Panels show images with information overlay | Open page and try to break it | Images always load correctly | Pass |
 
 __Confirmation Page__
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
+| Return button | Button takes user to the home page | Click the button | Button works as intended | Pass |
