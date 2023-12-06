@@ -46,6 +46,15 @@ While testing for mobile gave a somewhat lower and more inconsistent reading for
 
 ### Testing User Stories
 
+__Client goals__
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| Make it easy for visitors to see what the gym can offer. | Selling points and key information is presented on the home page in eye-catching panels with colorful icons. |
+| Make it easy for potential customers to sign up for membership. | The "Join" page has an intuitive sign-up form and panels with all relevant information about membership. |
+| Provide all relevant contact information and social media channels. | All of this is found in the footer and can thus be accessed from every page. |
+| Reach the audience regardless of device used to view the site. | The layout adapts to give the right flow of information on all screen sizes. |
+
 __First Time Visitors__
 
 | Goals | How are they achieved? |
