@@ -46,6 +46,22 @@ While testing for mobile gave a somewhat lower and more inconsistent reading for
 
 ### Testing User Stories
 
+__First Time Visitors__
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I want to get all the info about this gym, its equipment and open hours. | Elion Gym has all the info, presenting the key takeaways on the home page and sorting detailed information on dedicated pages. |
+| I want to navigate the site with ease on any device. | The site has a highly responsive design with very straightforward navigation that adapts for easy use on all devices. |
+| I want to find any relevant social media channels. | Links to social media are present in the form of icons in the footer of the page, making them intuitive and easy to access from anywhere on the page |
+| I want to sign up for membership if I like the gym. | Elion Gym has a functional signup form on a dedicated page with a very conspicuous link in the navigation bar. |  
+
+__Returning Visitors__
+
+|  Goals | How are they achieved? |
+| :--- | :--- |
+| I want to know what's happening at the gym. | The event page contains news and information about upcoming events |
+| I want an easy way to contact the gym. | Contact information is ever-present in the footer |
+
 ### Full Testing
 
 I thoroughly tested every part of this website, and also sent the link for testing to fellow students.
