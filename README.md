@@ -211,6 +211,8 @@ Please refer to [TESTING.md](documentation/TESTING.md) for testing documentation
 
 On certain smartphone screens, navigation links may be temporarily displaced vertically by a few pixels if the user turns the phone while the navigation menu is open. It has no impact on interactions and I only encountered this bug on one phone (Galaxy S22). When trying to replicate it on other phones or in the dev tools inspector, everything was normal.
 
+During peer review, I was told that the footer may come up from the bottom of the screen on the events page when viewed on a small tablet screen. I could not replicate this result during testing.
+
 ## Credits
 
 ### Content

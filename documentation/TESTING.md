@@ -79,7 +79,17 @@ My manual testing consisted of clicking everything possible, resizing the viewpo
 
 I repeated this process every time I implemented a new feature or changed anything major about existing features. Plus, I tried to interact with things in ways that were never intended just to make sure nothing breaks if someone were to do so on accident.
 
-The site was also tested on a number of browsers, including:
+The site was tested on these devices:
+* Computer:
+  * 14" Lenovo Thinkpad T480
+  * 22" Gaming PC display
+* Mobile
+  * Samsung Galaxy S23
+  * Samsung Galaxy S22
+  * Samsung Galaxy S9
+  * Motorola Moto G73 5g
+
+The site was also tested in a number of browsers, including:
 
 * Google Chrome
 * Mozilla Firefox
@@ -87,3 +97,5 @@ The site was also tested on a number of browsers, including:
 * Samsung Internet
 * Microsoft Edge
 * Safari
+
+I put the site up for peer review and received feedback about a bug that causes the footer to leave the bottom of the screen at specific viewport dimensions. I could not replicate this bug but attempted to fix the position more firmly.
