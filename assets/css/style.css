@@ -563,6 +563,11 @@ footer {
     padding-right: 16px;
 }
 
+.footer-logo:hover {
+    color: var(--light-text-color);
+    text-shadow: 0 0 10px var(--accent-color);
+}
+
 footer p {
     color: var(--light-text-color);
     margin-top: 10px;
@@ -588,6 +593,8 @@ footer p {
 #social-icons a:focus {
     color: var(--accent-color);
 }
+
+
 
 /* Media query: (480px and up) */
 @media screen and (min-width: 480px) {
