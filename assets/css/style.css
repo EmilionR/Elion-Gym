@@ -73,6 +73,7 @@ header {
     height: 200px;
     overflow-x: hidden;
     overflow-y: hidden;
+    min-height: 200px;
 }
 
 #header-logo {
@@ -665,7 +666,7 @@ footer p {
 
     .hero-images .hero-img {
         height: 40vh;
-        min-height: 40vh;
+        min-height: 240px;
     }
 
     .labels {
@@ -674,8 +675,8 @@ footer p {
 
     /* Header */
     header {
-        min-height: 40vh;
-        max-height: 40vh;
+        height: 40vh;
+        min-height: 240px;
     }
 
     #header-logo {
