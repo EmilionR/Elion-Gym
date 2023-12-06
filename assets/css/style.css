@@ -81,7 +81,7 @@ header {
 #header-logo {
     font-family: "Kdam Thmor Pro", sans-serif;
     position: relative;
-    padding: 5px auto 0;
+    padding: 5px;
     top: 75px;
     text-align: center;
     font-size: 250%;
